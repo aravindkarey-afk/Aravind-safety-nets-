@@ -34,7 +34,17 @@ The Worker name in Cloudflare must match `name` in `wrangler.jsonc`. If you alre
 
 On a successful deployment, open the `workers.dev` URL shown in the dashboard (enable your account's `workers.dev` subdomain first if prompted). To use `aravindsafetynets.in`, attach it to the Worker under **Settings → Domains & Routes** when you're ready to move traffic. Canonicals, social metadata, and the sitemap default to `https://aravindsafetynets.in`. If another origin will be the public site, set `VITE_PUBLIC_URL` to that full HTTPS origin as a **build variable** and redeploy.
 
-The form endpoints still forward to the GoDaddy Inbox configured in `src/lib/contact-form.config.json`. After deployment, submit a test from each form and confirm both messages arrive in the Inbox. The site continues to use the exported copies of uploaded media and the original remote stock-image URLs from `public/airo-media.json`.
+### Enable enquiry delivery
+
+The contact and quote forms POST to the Worker. The Worker sends through [Resend](https://resend.com/) to **aravindsafetynets@gmail.com**. The visitor’s email is set as `Reply-To`, not used as the sender. Set this up **before** publishing the form update:
+
+1. In Resend, verify a sending domain you control (for example `mail.aravindsafetynets.in`), using the DNS records Resend provides. Use an address on that verified domain as the sender. The default `resend.dev` test sender is limited to sending to the Resend account owner.
+2. In **Worker → Settings → Variables and Secrets**, set `CONTACT_FROM_EMAIL` as a runtime variable (for example `Aravind Safety Nets <enquiries@mail.aravindsafetynets.in>`) and add `RESEND_API_KEY` as a **secret**, using a sending-only key. Don't use a `VITE_` prefix or put the secret in Git. Configure the same settings separately for any preview Worker that needs live email.
+3. Use `npm run preview` with an ignored `.dev.vars` file for a controlled local delivery test, or deploy a configured Worker preview. Submit a labelled test from each form, confirm both arrive in Gmail (check Spam if needed), and verify that Reply goes to the test sender. In case of failure, check the Worker logs for the provider status and Resend's delivery logs. `npm run dev` is for UI development and does not send live email.
+
+Success is shown only after the email provider accepts the enquiry. A retry of unchanged fields in the same form reuses its idempotency key to avoid a second email if the first response was lost. Provider acceptance does not guarantee inbox placement.
+
+The site continues to use the exported copies of uploaded media and the original remote stock-image URLs from `public/airo-media.json`.
 
 ### Deploy from a terminal
 
