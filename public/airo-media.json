@@ -1,0 +1,231 @@
+{
+  "pages/home/invisible-grills": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-2-1b9847c9.webp",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "resizedUrl": "/airo-assets/uploads/variants/7a679ba3b4890fb1cb92f31492b2a4e8.webp",
+    "resizedFrom": {
+      "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-2-1b9847c9.webp",
+      "sourceBytes": 111372,
+      "requestedSize": {
+        "width": 600,
+        "height": 400,
+        "fit": "cover"
+      }
+    }
+  },
+  "pages/home/about": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1453484065",
+    "requestedSize": {
+      "width": 700,
+      "height": 500,
+      "fit": "cover"
+    }
+  },
+  "pages/home/children-safety-net": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-children-net-1-1de61280.jpg",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "resizedUrl": "/airo-assets/uploads/variants/5c10cbfab55fc999c16fd9ee100febc8.jpg",
+    "resizedFrom": {
+      "currentUrl": "/airo-assets/uploads/gallery-children-net-1-1de61280.jpg",
+      "sourceBytes": 291633,
+      "requestedSize": {
+        "width": 600,
+        "height": 400,
+        "fit": "cover"
+      }
+    }
+  },
+  "pages/home/hero": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2219892616",
+    "requestedSize": {
+      "width": 800,
+      "height": 1000,
+      "fit": "cover"
+    }
+  },
+  "pages/home/pigeon-nets": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-3-2d99fcc0.webp",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "resizedUrl": "/airo-assets/uploads/variants/f7a5cfde3b30781f1d98215128f49db2.webp",
+    "resizedFrom": {
+      "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-3-2d99fcc0.webp",
+      "sourceBytes": 349502,
+      "requestedSize": {
+        "width": 600,
+        "height": 400,
+        "fit": "cover"
+      }
+    }
+  },
+  "logo/horizontal": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-horizontal-7ab151d3.png",
+    "darkSurfaceUrl": "/airo-assets/uploads/logo-horizontal-7ab151d3.png",
+    "naturalOrientation": "horizontal"
+  },
+  "logo/favicon": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-favicon-917b25c5.png",
+    "darkSurfaceUrl": "/airo-assets/uploads/logo-favicon-917b25c5.png"
+  },
+  "pages/services/children-safety-nets/hero": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1830326757"
+  },
+  "pages/services/monkey-safety-nets/hero": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2253529233"
+  },
+  "pages/services/cloth-hangers/hero": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2198238321"
+  },
+  "pages/services/duct-area-nets/hero": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-services-duct-area-nets-hero-fedc6e30.jpg"
+  },
+  "pages/services/balcony-safety-nets/hero": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2219892617"
+  },
+  "gallery/pigeon-net-3": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-pigeon-net-3-41ec9245.webp"
+  },
+  "gallery/balcony-net-1": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-pigeon-net-2-191c23b5.jpg"
+  },
+  "gallery/children-net-1": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-children-net-1-1de61280.jpg"
+  },
+  "gallery/invisible-grill-1": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-1-d9034dce.jpg"
+  },
+  "gallery/balcony-net-2": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-duct-area-net-1-e922d80b.jpg"
+  },
+  "gallery/children-net-3": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2190804653"
+  },
+  "gallery/invisible-grill-3": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-3-2d99fcc0.webp"
+  },
+  "gallery/children-net-2": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-children-net-2-cbf00e85.jpg"
+  },
+  "pages/services/pigeon-safety-nets/hero": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2190804653"
+  },
+  "gallery/invisible-grill-2": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-2-1b9847c9.webp"
+  },
+  "gallery/pigeon-net-1": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-pigeon-net-1-0b5ab004.jpg"
+  },
+  "pages/services/invisible-grills/hero": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-2-1b9847c9.webp"
+  },
+  "gallery/balcony-net-3": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/952075142"
+  },
+  "gallery/pigeon-net-2": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-pigeon-net-2-191c23b5.jpg"
+  },
+  "uploads/hero-1000084026": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/uploads-hero-1000084026-95c3aa57.png"
+  },
+  "gallery/duct-area-net-1": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-duct-area-net-1-e922d80b.jpg"
+  },
+  "gallery/invisible-grill-4": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-pigeon-net-3-41ec9245.webp"
+  },
+  "gallery/invisible-grill-5": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/952075142"
+  },
+  "gallery/invisible-grill-6": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-2-1b9847c9.webp"
+  },
+  "pages/home/terrace-safety-nets": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1269581622",
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    }
+  },
+  "pages/home/bird-spikes": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-home-bird-spikes-558433d8.jpg"
+  },
+  "gallery/bird-spikes-1": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-bird-spikes-1-558433d8.jpg"
+  },
+  "pages/about/hero": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1153170010",
+    "requestedSize": {
+      "width": 1400,
+      "height": 600,
+      "fit": "cover"
+    }
+  },
+  "pages/about/founder": {
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2211175052",
+    "requestedSize": {
+      "width": 500,
+      "height": 600,
+      "fit": "cover"
+    }
+  },
+  "logo/primary": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-primary-42149195.png",
+    "darkSurfaceUrl": "/airo-assets/uploads/logo-primary-42149195.png",
+    "naturalOrientation": "square"
+  },
+  "logo/vertical": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-vertical-735b5188.png",
+    "darkSurfaceUrl": "/airo-assets/uploads/logo-vertical-735b5188.png",
+    "naturalOrientation": "vertical"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "heading": "Our Work",
+  "subheading": "Real installations across Hyderabad — see the quality for yourself",
+  "categories": [
+    {
+      "id": "cat-all",
+      "label": "All"
+    },
+    {
+      "id": "cat-pigeon",
+      "label": "Pigeon Nets"
+    },
+    {
+      "id": "cat-children",
+      "label": "Children Safety"
+    },
+    {
+      "id": "cat-grills",
+      "label": "Invisible Grills"
+    },
+    {
+      "id": "cat-balcony",
+      "label": "Balcony Nets"
+    },
+    {
+      "id": "cat-duct",
+      "label": "Duct Area Nets"
+    },
+    {
+      "id": "cat-monkey",
+      "label": "Monkey Nets"
+    },
+    {
+      "id": "cat-cloth",
+      "label": "Cloth Hangers"
+    },
+    {
+      "id": "cat-bird-spikes",
+      "label": "Bird Spikes"
+    }
+  ],
+  "items": [
+    {
+      "id": "g1",
+      "slot": "gallery/pigeon-net-1",
+      "alt": "Pigeon net installed on apartment balcony",
+      "category": "cat-pigeon",
+      "caption": "Pigeon net — Banjara Hills apartment"
+    },
+    {
+      "id": "g2",
+      "slot": "gallery/children-net-1",
+      "alt": "Children safety net on high-rise balcony",
+      "category": "cat-children",
+      "caption": "Children safety net — Gachibowli flat"
+    },
+    {
+      "id": "g3",
+      "slot": "gallery/invisible-grill-1",
+      "alt": "Invisible grill on apartment window",
+      "category": "cat-grills",
+      "caption": "Invisible grills — Jubilee Hills residence"
+    },
+    {
+      "id": "g4",
+      "slot": "gallery/balcony-net-1",
+      "alt": "Full balcony safety net enclosure",
+      "category": "cat-balcony",
+      "caption": "Balcony net — Kondapur apartment"
+    },
+    {
+      "id": "g6",
+      "slot": "gallery/invisible-grill-2",
+      "alt": "Invisible grills on large balcony",
+      "category": "cat-grills",
+      "caption": "Invisible grills — Hitech City flat"
+    },
+    {
+      "id": "g7",
+      "slot": "gallery/children-net-2",
+      "alt": "Children safety net on staircase",
+      "category": "cat-children",
+      "caption": "Staircase safety net — Kukatpally home"
+    },
+    {
+      "id": "g8",
+      "slot": "gallery/balcony-net-2",
+      "alt": "Balcony safety net on corner flat",
+      "category": "cat-balcony",
+      "caption": "Balcony net — Miyapur apartment"
+    },
+    {
+      "id": "g10",
+      "slot": "gallery/invisible-grill-3",
+      "alt": "Invisible grills on bedroom window",
+      "category": "cat-grills",
+      "caption": "Invisible grills — Manikonda villa"
+    },
+    {
+      "id": "g17",
+      "slot": "gallery/invisible-grill-4",
+      "alt": "Stainless steel invisible grill balcony railing",
+      "category": "cat-grills",
+      "caption": "Invisible grills — Banjara Hills apartment"
+    },
+    {
+      "id": "g18",
+      "slot": "gallery/invisible-grill-5",
+      "alt": "Transparent safety grill on apartment window",
+      "category": "cat-grills",
+      "caption": "Invisible grills — Kondapur flat"
+    },
+    {
+      "id": "g19",
+      "slot": "gallery/invisible-grill-6",
+      "alt": "Modern stainless steel cable grill on balcony",
+      "category": "cat-grills",
+      "caption": "Invisible grills — Gachibowli residence"
+    },
+    {
+      "id": "g11",
+      "slot": "gallery/children-net-3",
+      "alt": "Children safety net on balcony railing",
+      "category": "cat-children",
+      "caption": "Children net — Nallagandla flat"
+    },
+    {
+      "id": "g12",
+      "slot": "gallery/balcony-net-3",
+      "alt": "Balcony net on penthouse terrace",
+      "category": "cat-balcony",
+      "caption": "Balcony net — Narsingi penthouse"
+    },
+    {
+      "id": "g13",
+      "slot": "gallery/duct-area-net-1",
+      "alt": "Duct area safety net installed in apartment building",
+      "category": "cat-duct",
+      "caption": "Duct area net — Hyderabad apartment"
+    },
+    {
+      "id": "g14",
+      "slot": "pages/services/duct-area-nets/hero",
+      "alt": "Duct area net covering building shaft",
+      "category": "cat-duct",
+      "caption": "Duct area net — Secunderabad complex"
+    },
+    {
+      "id": "g15",
+      "slot": "pages/services/monkey-safety-nets/hero",
+      "alt": "Heavy duty monkey safety net on building exterior",
+      "category": "cat-monkey",
+      "caption": "Monkey safety net — Hyderabad villa"
+    },
+    {
+      "id": "g16",
+      "slot": "pages/services/cloth-hangers/hero",
+      "alt": "Stainless steel cloth hanger system on balcony",
+      "category": "cat-cloth",
+      "caption": "Cloth hanger system — Gachibowli flat"
+    },
+    {
+      "id": "g20",
+      "slot": "gallery/bird-spikes-1",
+      "alt": "Bird spikes installed on building ledge to deter pigeons",
+      "category": "cat-bird-spikes",
+      "caption": "Bird spikes — Hyderabad building"
+    }
+  ],
+  "cta": {
+    "heading": "Like what you see?",
+    "subheading": "Get a free quote for your property today.",
+    "phone": "9491173428"
+  }
+}

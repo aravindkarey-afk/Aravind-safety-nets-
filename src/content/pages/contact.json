@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "heading": "Get in Touch",
+    "subheading": "We're here to help. Call us, WhatsApp us, or fill in the form and we'll get back to you within a few hours."
+  },
+  "contactDetails": {
+    "phone": "9491173428",
+    "whatsapp": "919491173428",
+    "email": "aravindnets@gmail.com",
+    "address": "Hyderabad, Telangana, India",
+    "hours": "Mon – Sat: 8 AM – 8 PM",
+    "serviceArea": "Serving all areas across Hyderabad & Secunderabad"
+  },
+  "form": {
+    "heading": "Send Us a Message",
+    "subheading": "Tell us about your requirement and we'll call you back with a free quote.",
+    "successMessage": "Thank you! We'll get back to you within a few hours.",
+    "fields": {
+      "namePlaceholder": "Your full name",
+      "emailPlaceholder": "Your email address",
+      "phonePlaceholder": "Your phone number",
+      "servicePlaceholder": "Which service are you interested in?",
+      "messagePlaceholder": "Tell us about your requirement (location, type of property, etc.)"
+    }
+  },
+  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.3160002!2d78.24323045!3d17.41250!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1234567890",
+  "faq": {
+    "heading": "Quick answers",
+    "items": [
+      {
+        "id": "q1",
+        "question": "Do you offer a free site visit?",
+        "answer": "Yes — we visit your property at no charge to measure and assess the area before giving you a quote."
+      },
+      {
+        "id": "q2",
+        "question": "How quickly can you install?",
+        "answer": "Most installations are completed within 1–3 days of your inquiry, depending on the service and location."
+      },
+      {
+        "id": "q3",
+        "question": "Do you cover all areas in Hyderabad?",
+        "answer": "Yes — we serve all areas across Hyderabad and Secunderabad, including Banjara Hills, Gachibowli, Jubilee Hills, Kondapur, Madhapur, Hitech City, and more."
+      },
+      {
+        "id": "q4",
+        "question": "What warranty do you provide?",
+        "answer": "All our installations come with a warranty. The duration depends on the product — ask us when you call for details."
+      }
+    ]
+  }
+}

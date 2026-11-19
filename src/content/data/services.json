@@ -1,0 +1,513 @@
+[
+  {
+    "id": "pigeon-safety-nets",
+    "slug": "pigeon-safety-nets",
+    "name": "Pigeon Safety Nets",
+    "tagline": "Keep birds away — permanently",
+    "heroImage": "pages/services/pigeon-safety-nets/hero",
+    "description": "Pigeons and birds nesting on your balcony, terrace, or AC unit can cause serious damage and hygiene issues. Our UV-resistant, high-tensile pigeon safety nets create an invisible barrier that keeps birds out without harming them — and without ruining your view.",
+    "benefits": [
+      {
+        "id": "b1",
+        "text": "UV-resistant and weatherproof — lasts 5+ years"
+      },
+      {
+        "id": "b2",
+        "text": "Invisible from a distance — doesn't affect aesthetics"
+      },
+      {
+        "id": "b3",
+        "text": "Humane — birds are deterred, not harmed"
+      },
+      {
+        "id": "b4",
+        "text": "Covers balconies, terraces, AC units, and ducts"
+      },
+      {
+        "id": "b5",
+        "text": "Easy to clean and maintain"
+      }
+    ],
+    "process": [
+      {
+        "id": "p1",
+        "step": "1",
+        "title": "Free Site Visit",
+        "description": "Our technician visits your property to measure and assess the area."
+      },
+      {
+        "id": "p2",
+        "step": "2",
+        "title": "Custom Quote",
+        "description": "We provide a transparent, no-obligation quote based on your exact requirements."
+      },
+      {
+        "id": "p3",
+        "step": "3",
+        "title": "Professional Installation",
+        "description": "Our team installs the nets neatly and securely, usually within a few hours."
+      },
+      {
+        "id": "p4",
+        "step": "4",
+        "title": "Warranty & Support",
+        "description": "All installations come with a warranty and ongoing support."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "f1",
+        "question": "How long do pigeon nets last?",
+        "answer": "Our nets are UV-resistant and weatherproof, typically lasting 5–7 years with normal use."
+      },
+      {
+        "id": "f2",
+        "question": "Will the net affect my view?",
+        "answer": "No — the fine mesh is nearly invisible from a distance and doesn't block light or airflow."
+      },
+      {
+        "id": "f3",
+        "question": "Can nets be installed on any balcony?",
+        "answer": "Yes, we custom-fit nets to any balcony size, shape, or floor height."
+      }
+    ]
+  },
+  {
+    "id": "children-safety-nets",
+    "slug": "children-safety-nets",
+    "name": "Children Safety Nets",
+    "tagline": "Because your child's safety is everything",
+    "heroImage": "pages/services/children-safety-nets/hero",
+    "description": "Children are naturally curious and can easily slip through balcony railings or staircase gaps. Our certified children safety nets provide a strong, reliable barrier that gives parents complete peace of mind — without restricting light or airflow.",
+    "benefits": [
+      {
+        "id": "b1",
+        "text": "High-tensile strength — tested to withstand impact"
+      },
+      {
+        "id": "b2",
+        "text": "Certified safe for residential use"
+      },
+      {
+        "id": "b3",
+        "text": "Fits balconies, staircases, windows, and terraces"
+      },
+      {
+        "id": "b4",
+        "text": "Child-friendly — no sharp edges or hazards"
+      },
+      {
+        "id": "b5",
+        "text": "Available in multiple colors to match your décor"
+      }
+    ],
+    "process": [
+      {
+        "id": "p1",
+        "step": "1",
+        "title": "Free Site Visit",
+        "description": "Our technician visits your property to measure and assess the area."
+      },
+      {
+        "id": "p2",
+        "step": "2",
+        "title": "Custom Quote",
+        "description": "We provide a transparent, no-obligation quote based on your exact requirements."
+      },
+      {
+        "id": "p3",
+        "step": "3",
+        "title": "Professional Installation",
+        "description": "Our team installs the nets neatly and securely, usually within a few hours."
+      },
+      {
+        "id": "p4",
+        "step": "4",
+        "title": "Warranty & Support",
+        "description": "All installations come with a warranty and ongoing support."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "f1",
+        "question": "What age group are these nets designed for?",
+        "answer": "They're designed to protect children of all ages, especially toddlers and young children who are most at risk."
+      },
+      {
+        "id": "f2",
+        "question": "Are the nets strong enough to hold a child's weight?",
+        "answer": "Yes — our nets are high-tensile and tested to withstand significant impact loads."
+      },
+      {
+        "id": "f3",
+        "question": "Can they be removed and reinstalled?",
+        "answer": "Yes, we can remove and reinstall nets if you move or renovate."
+      }
+    ]
+  },
+  {
+    "id": "invisible-grills",
+    "slug": "invisible-grills",
+    "name": "Invisible Grills",
+    "tagline": "Security without sacrificing your view",
+    "heroImage": "pages/services/invisible-grills/hero",
+    "description": "Invisible grills use high-tensile stainless steel cables tensioned between top and bottom tracks to create a near-invisible security barrier. They offer the protection of traditional grills while preserving your unobstructed view and natural light.",
+    "benefits": [
+      {
+        "id": "b1",
+        "text": "316-grade stainless steel — rust-proof and durable"
+      },
+      {
+        "id": "b2",
+        "text": "Near-invisible — preserves your view completely"
+      },
+      {
+        "id": "b3",
+        "text": "Suitable for windows, balconies, and staircases"
+      },
+      {
+        "id": "b4",
+        "text": "Easy to clean — just wipe down with a cloth"
+      },
+      {
+        "id": "b5",
+        "text": "Increases property value and aesthetics"
+      }
+    ],
+    "process": [
+      {
+        "id": "p1",
+        "step": "1",
+        "title": "Free Site Visit",
+        "description": "Our technician visits your property to measure and assess the area."
+      },
+      {
+        "id": "p2",
+        "step": "2",
+        "title": "Custom Quote",
+        "description": "We provide a transparent, no-obligation quote based on your exact requirements."
+      },
+      {
+        "id": "p3",
+        "step": "3",
+        "title": "Professional Installation",
+        "description": "Our team installs the grills neatly and securely, usually within a day."
+      },
+      {
+        "id": "p4",
+        "step": "4",
+        "title": "Warranty & Support",
+        "description": "All installations come with a warranty and ongoing support."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "f1",
+        "question": "Are invisible grills as strong as traditional iron grills?",
+        "answer": "Yes — the high-tensile stainless steel cables are extremely strong and difficult to cut or break."
+      },
+      {
+        "id": "f2",
+        "question": "Do they rust or corrode?",
+        "answer": "No — we use 316-grade marine stainless steel which is fully rust-proof even in humid conditions."
+      },
+      {
+        "id": "f3",
+        "question": "Can they be installed on any window size?",
+        "answer": "Yes, we custom-fabricate the tracks and cables to fit any window or balcony dimension."
+      }
+    ]
+  },
+  {
+    "id": "balcony-safety-nets",
+    "slug": "balcony-safety-nets",
+    "name": "Balcony Safety Nets",
+    "tagline": "Full balcony protection, top to bottom",
+    "heroImage": "pages/services/balcony-safety-nets/hero",
+    "description": "Our balcony safety nets provide complete enclosure protection — keeping children safe, birds out, and debris contained. Custom-fitted to your balcony's exact dimensions, they're strong, discreet, and built to last.",
+    "benefits": [
+      {
+        "id": "b1",
+        "text": "Full enclosure — top, sides, and front covered"
+      },
+      {
+        "id": "b2",
+        "text": "Protects against falls, birds, and windblown debris"
+      },
+      {
+        "id": "b3",
+        "text": "Custom-fitted to any balcony shape or size"
+      },
+      {
+        "id": "b4",
+        "text": "UV-resistant and weatherproof"
+      },
+      {
+        "id": "b5",
+        "text": "Minimal visual impact — fine mesh design"
+      }
+    ],
+    "process": [
+      {
+        "id": "p1",
+        "step": "1",
+        "title": "Free Site Visit",
+        "description": "Our technician visits your property to measure and assess the area."
+      },
+      {
+        "id": "p2",
+        "step": "2",
+        "title": "Custom Quote",
+        "description": "We provide a transparent, no-obligation quote based on your exact requirements."
+      },
+      {
+        "id": "p3",
+        "step": "3",
+        "title": "Professional Installation",
+        "description": "Our team installs the nets neatly and securely, usually within a few hours."
+      },
+      {
+        "id": "p4",
+        "step": "4",
+        "title": "Warranty & Support",
+        "description": "All installations come with a warranty and ongoing support."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "f1",
+        "question": "Will the net block my balcony view?",
+        "answer": "Our fine mesh nets are nearly invisible and don't significantly obstruct your view or airflow."
+      },
+      {
+        "id": "f2",
+        "question": "Can I still use my balcony normally?",
+        "answer": "Absolutely — the nets are installed around the perimeter and don't interfere with your use of the space."
+      },
+      {
+        "id": "f3",
+        "question": "How long does installation take?",
+        "answer": "Most balcony net installations are completed within 2–4 hours."
+      }
+    ]
+  },
+  {
+    "id": "duct-area-nets",
+    "slug": "duct-area-nets",
+    "name": "Duct Area Nets",
+    "tagline": "Block pests from your building's ducts",
+    "heroImage": "pages/services/duct-area-nets/hero",
+    "description": "Duct areas in apartments and buildings are prime nesting spots for pigeons, sparrows, and other pests. Our custom-fitted duct area nets seal these openings completely, preventing infestations and the damage they cause.",
+    "benefits": [
+      {
+        "id": "b1",
+        "text": "Seals duct openings completely — no gaps"
+      },
+      {
+        "id": "b2",
+        "text": "Prevents bird and pest nesting"
+      },
+      {
+        "id": "b3",
+        "text": "Reduces noise and mess from nesting birds"
+      },
+      {
+        "id": "b4",
+        "text": "Custom-fitted to any duct size or shape"
+      },
+      {
+        "id": "b5",
+        "text": "Durable and low-maintenance"
+      }
+    ],
+    "process": [
+      {
+        "id": "p1",
+        "step": "1",
+        "title": "Free Site Visit",
+        "description": "Our technician visits your property to measure and assess the area."
+      },
+      {
+        "id": "p2",
+        "step": "2",
+        "title": "Custom Quote",
+        "description": "We provide a transparent, no-obligation quote based on your exact requirements."
+      },
+      {
+        "id": "p3",
+        "step": "3",
+        "title": "Professional Installation",
+        "description": "Our team installs the nets neatly and securely, usually within a few hours."
+      },
+      {
+        "id": "p4",
+        "step": "4",
+        "title": "Warranty & Support",
+        "description": "All installations come with a warranty and ongoing support."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "f1",
+        "question": "Will the net block ventilation?",
+        "answer": "No — we use fine mesh that allows airflow while blocking birds and pests."
+      },
+      {
+        "id": "f2",
+        "question": "Can you cover irregular duct shapes?",
+        "answer": "Yes, we custom-fabricate nets to fit any duct opening, regardless of shape or size."
+      },
+      {
+        "id": "f3",
+        "question": "Is this suitable for high-rise buildings?",
+        "answer": "Yes — we have experience working at height and follow all safety protocols."
+      }
+    ]
+  },
+  {
+    "id": "monkey-safety-nets",
+    "slug": "monkey-safety-nets",
+    "name": "Monkey Safety Nets",
+    "tagline": "Keep monkeys out of your property",
+    "heroImage": "pages/services/monkey-safety-nets/hero",
+    "description": "Monkeys entering homes and apartments can cause significant damage and pose safety risks. Our heavy-duty monkey safety nets use reinforced mesh and robust fixings to create an impenetrable barrier around your balcony, terrace, or windows.",
+    "benefits": [
+      {
+        "id": "b1",
+        "text": "Heavy-duty reinforced mesh — monkey-proof"
+      },
+      {
+        "id": "b2",
+        "text": "Robust fixings designed to resist pulling and tearing"
+      },
+      {
+        "id": "b3",
+        "text": "Covers balconies, terraces, and windows"
+      },
+      {
+        "id": "b4",
+        "text": "Durable in all weather conditions"
+      },
+      {
+        "id": "b5",
+        "text": "Humane — deters without harming animals"
+      }
+    ],
+    "process": [
+      {
+        "id": "p1",
+        "step": "1",
+        "title": "Free Site Visit",
+        "description": "Our technician visits your property to measure and assess the area."
+      },
+      {
+        "id": "p2",
+        "step": "2",
+        "title": "Custom Quote",
+        "description": "We provide a transparent, no-obligation quote based on your exact requirements."
+      },
+      {
+        "id": "p3",
+        "step": "3",
+        "title": "Professional Installation",
+        "description": "Our team installs the nets neatly and securely, usually within a few hours."
+      },
+      {
+        "id": "p4",
+        "step": "4",
+        "title": "Warranty & Support",
+        "description": "All installations come with a warranty and ongoing support."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "f1",
+        "question": "Are monkey nets different from pigeon nets?",
+        "answer": "Yes — monkey nets use heavier, reinforced mesh and stronger fixings to withstand the force monkeys can exert."
+      },
+      {
+        "id": "f2",
+        "question": "Will the net damage my building's exterior?",
+        "answer": "No — we use non-invasive fixing methods that don't damage walls or railings."
+      },
+      {
+        "id": "f3",
+        "question": "How quickly can you install?",
+        "answer": "We can usually install within 1–2 days of your inquiry."
+      }
+    ]
+  },
+  {
+    "id": "cloth-hangers",
+    "slug": "cloth-hangers",
+    "name": "Cloth Hangers",
+    "tagline": "Convenient, sturdy balcony drying solutions",
+    "heroImage": "pages/services/cloth-hangers/hero",
+    "description": "Our balcony cloth hanger systems are designed for convenience and durability. Made from rust-proof stainless steel and aluminium, they're built to handle heavy loads and withstand Hyderabad's weather — year after year.",
+    "benefits": [
+      {
+        "id": "b1",
+        "text": "Rust-proof stainless steel and aluminium construction"
+      },
+      {
+        "id": "b2",
+        "text": "Handles heavy loads — multiple garments at once"
+      },
+      {
+        "id": "b3",
+        "text": "Foldable designs available to save space"
+      },
+      {
+        "id": "b4",
+        "text": "Custom-fitted to your balcony dimensions"
+      },
+      {
+        "id": "b5",
+        "text": "Easy to install and maintain"
+      }
+    ],
+    "process": [
+      {
+        "id": "p1",
+        "step": "1",
+        "title": "Free Site Visit",
+        "description": "Our technician visits your property to measure and assess the area."
+      },
+      {
+        "id": "p2",
+        "step": "2",
+        "title": "Custom Quote",
+        "description": "We provide a transparent, no-obligation quote based on your exact requirements."
+      },
+      {
+        "id": "p3",
+        "step": "3",
+        "title": "Professional Installation",
+        "description": "Our team installs the hanger system neatly and securely."
+      },
+      {
+        "id": "p4",
+        "step": "4",
+        "title": "Warranty & Support",
+        "description": "All installations come with a warranty and ongoing support."
+      }
+    ],
+    "faqs": [
+      {
+        "id": "f1",
+        "question": "Will the hanger rust over time?",
+        "answer": "No — we use rust-proof stainless steel and aluminium that withstand humidity and rain."
+      },
+      {
+        "id": "f2",
+        "question": "Can it be installed on any balcony?",
+        "answer": "Yes, we custom-fit the system to your balcony's exact dimensions and railing type."
+      },
+      {
+        "id": "f3",
+        "question": "Is it safe to use in heavy rain?",
+        "answer": "Yes — the materials and fixings are weatherproof and designed for outdoor use."
+      }
+    ]
+  }
+]
