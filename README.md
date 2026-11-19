@@ -8,11 +8,10 @@ Use Node.js **22.22.3** (see `.node-version`):
 
 ```sh
 npm ci
-npm run build
 npm run preview
 ```
 
-`npm run build` generates the deployable site in **`dist/`**, with `dist/index.html`, HTML for every public route, `404.html`, assets, sitemap, robots.txt, and llms.txt. `dist-ssr/` is only used during prerendering; do not deploy it. `npm run preview` uses Wrangler so you can check the same routes and bindings used on Cloudflare. `npm run dev` is the Vite hot-reload server for day-to-day editing.
+`npm run build` generates the deployable site in **`dist/`**, with `dist/index.html`, HTML for every public route, `404.html`, assets, sitemap, robots.txt, and llms.txt. `dist-ssr/` is only used during prerendering; do not deploy it. `npm run preview` uses Wrangler, which runs the production build before starting the local Worker so you can check the same routes and bindings used on Cloudflare. `npm run dev` is the Vite hot-reload server for day-to-day editing.
 
 ## Deploy to Cloudflare Workers
 
@@ -24,10 +23,12 @@ In **Cloudflare → Workers & Pages**, create or open the Worker, connect this G
 | --- | --- |
 | Production branch | `main` (after merging); use a preview build to test a branch first |
 | Root directory | Repository root (`/`) |
-| Build command | `npm run build` |
+| Build command | Leave blank; Wrangler runs `npm run build` via `wrangler.jsonc` |
 | Deploy command | `npx wrangler deploy` |
 | Static assets directory | `dist` (from `wrangler.jsonc`; no separate Workers dashboard field needed) |
 | Node version | `22.22.3` via `.node-version`; update an older `NODE_VERSION` override if one is set |
+
+The deploy log should show `[custom build] Running: npm run build` before Wrangler reads the static assets. No cached or committed `dist/` is required. If `npm run build` is already set in the dashboard, clear it after this update to avoid building twice.
 
 The Worker name in Cloudflare must match `name` in `wrangler.jsonc`. If you already have a Worker with a different name, update the config to match before redeploying. If the existing project is **Pages**, create a **Worker** instead. A static-only Pages deployment would not implement the site's form and media endpoints.
 
@@ -41,9 +42,8 @@ From an authenticated Cloudflare CLI session:
 
 ```sh
 npm ci
-npm run build
-npm run deploy -- --dry-run  # validate the Worker bundle and assets without uploading
-npm run deploy              # publish and print the deployment URL
+npm run deploy -- --dry-run  # build and validate without uploading
+npm run deploy              # build, publish and print the deployment URL
 ```
 
 Run `npm run type-check` and `npm test -- --run` to verify the source and Worker routes before deploying.
