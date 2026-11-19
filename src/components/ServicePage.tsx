@@ -1,4 +1,5 @@
 import { siteOrigin as site } from '@/lib/site-meta';
+import { bandlagudaJagir, bandlagudaServices } from '@/lib/bandlaguda-jagir';
 import { Helmet } from '@dr.pogodin/react-helmet';
 import { Link } from 'react-router';
 import { motion } from 'motion/react';
@@ -221,6 +222,17 @@ export default function ServicePage({
                 </motion.div>
               ))}
             </div>
+            {bandlagudaServices.some((service) => service.slug === slug) && (
+              <div className="mt-6 rounded-2xl border border-border bg-muted/50 p-5">
+                <p className="text-sm text-foreground">Planning an installation in {bandlagudaJagir.name}?</p>
+                <Link
+                  to={`${bandlagudaJagir.path}#${slug}`}
+                  className="mt-1 inline-flex min-h-11 items-center gap-2 text-sm font-bold text-primary underline underline-offset-4"
+                >
+                  See options in {bandlagudaJagir.name} <ArrowRight className="h-4 w-4 shrink-0" aria-hidden="true" />
+                </Link>
+              </div>
+            )}
           </div>
         </section>
 

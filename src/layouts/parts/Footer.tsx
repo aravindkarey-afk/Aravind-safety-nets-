@@ -61,7 +61,7 @@ export default function Footer() {
                   className="flex items-center gap-3 text-primary-foreground/70 hover:text-accent text-sm transition-colors"
                 >
                   <Mail className="w-4 h-4 shrink-0 text-accent" />
-                  <span>aravindsafetynets@gmail.com</span>
+                  <span className="min-w-0 [overflow-wrap:anywhere]">aravindsafetynets@gmail.com</span>
                 </a>
               </li>
               <li className="flex items-center gap-3 text-primary-foreground/70 text-sm">

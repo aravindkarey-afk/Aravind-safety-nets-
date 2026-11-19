@@ -8,6 +8,7 @@ import BalconySafetyNetsPage from './pages/services/balcony-safety-nets';
 import DuctAreaNetsPage from './pages/services/duct-area-nets';
 import MonkeySafetyNetsPage from './pages/services/monkey-safety-nets';
 import ClothHangersPage from './pages/services/cloth-hangers';
+import BandlagudaJagirPage from './pages/service-areas/bandlaguda-jagir';
 import GalleryPage from './pages/gallery';
 import ContactPage from './pages/contact';
 import AboutPage from './pages/about';
@@ -30,6 +31,7 @@ export const routes: RouteObject[] = [
   { path: '/services/duct-area-nets', element: <DuctAreaNetsPage /> },
   { path: '/services/monkey-safety-nets', element: <MonkeySafetyNetsPage /> },
   { path: '/services/cloth-hangers', element: <ClothHangersPage /> },
+  { path: '/service-areas/bandlaguda-jagir', element: <BandlagudaJagirPage /> },
   { path: '/gallery', element: <GalleryPage /> },
   { path: '/about', element: <AboutPage /> },
   { path: '/contact', element: <ContactPage /> },
@@ -48,6 +50,7 @@ export type Path =
   | '/services/duct-area-nets'
   | '/services/monkey-safety-nets'
   | '/services/cloth-hangers'
+  | '/service-areas/bandlaguda-jagir'
   | '/gallery'
   | '/about'
   | '/contact'

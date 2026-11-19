@@ -47,3 +47,7 @@ npm run deploy              # publish and print the deployment URL
 ```
 
 Run `npm run type-check` and `npm test -- --run` to verify the source and Worker routes before deploying.
+
+### Local SEO: Bandlaguda Jagir
+
+After publishing the custom domain, check `https://aravindsafetynets.in/service-areas/bandlaguda-jagir`, then submit `https://aravindsafetynets.in/sitemap.xml` in Google Search Console. Use **URL Inspection** on the landing page to confirm Google can fetch it and request indexing if needed. The production build generates a crawlable `robots.txt` pointing to the sitemap; the `public/robots.txt` fallback blocks crawlers on the Vite development server. Indexing and ranking are determined by Google.

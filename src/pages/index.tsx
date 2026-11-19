@@ -1,4 +1,6 @@
 import { siteOrigin as site } from '@/lib/site-meta';
+import { bandlagudaJagir, bandlagudaPlace } from '@/lib/bandlaguda-jagir';
+import { Link } from 'react-router';
 import { Helmet } from '@dr.pogodin/react-helmet';
 import { motion } from 'motion/react';
 import { useRef } from 'react';
@@ -7,7 +9,7 @@ import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carouse
 import {
   Phone, MessageCircle, FileText, CheckCircle, Shield,
   Star, Zap, Award, ThumbsUp, Grid3X3, Bird, Baby,
-  Eye, Wind, Shirt, Home,
+  Eye, Wind, Shirt, Home, MapPin, ArrowRight,
 } from 'lucide-react';
 import { home } from 'virtual:content';
 import QuoteRequestForm from '@/components/QuoteRequestForm';
@@ -42,7 +44,7 @@ const cardVariants = {
 
 export default function HomePage() {
   const autoplay = useRef(Autoplay({ delay: 3500, stopOnInteraction: false }));
-    const jsonLd = {
+  const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
       { '@type': 'WebSite', '@id': `${site}/#website`, name: 'Aravind Safety Nets', url: `${site}/` },
@@ -51,7 +53,8 @@ export default function HomePage() {
         '@id': `${site}/#organization`,
         name: 'Aravind Safety Nets',
         url: `${site}/`,
-        telephone: '9491173428',
+        telephone: bandlagudaJagir.telephone,
+        areaServed: [bandlagudaPlace, { '@type': 'City', name: 'Hyderabad' }],
         email: 'aravindsafetynets@gmail.com',
         address: {
           '@type': 'PostalAddress',
@@ -471,6 +474,27 @@ export default function HomePage() {
                 </motion.div>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* ── Service Areas ── */}
+        <section id="service-areas" aria-labelledby="home-service-areas" className="border-t border-border bg-background py-12 sm:py-16">
+          <div className="mx-auto grid max-w-7xl items-center gap-6 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+            <div>
+              <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-primary">Local installation</p>
+              <h2 id="home-service-areas" className="text-2xl font-bold text-foreground sm:text-3xl">Areas We Serve in Hyderabad</h2>
+              <p className="mt-3 max-w-lg text-muted-foreground">Explore local options for balcony nets, bird protection, and invisible grills for your home.</p>
+            </div>
+            <Link to={bandlagudaJagir.path} className="group flex items-center gap-4 rounded-2xl border border-border bg-muted/50 p-4 transition-colors hover:border-primary/40 hover:bg-muted sm:p-5">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary text-primary-foreground">
+                <MapPin className="h-5 w-5" aria-hidden="true" />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block text-base font-bold text-primary">{bandlagudaJagir.name}</span>
+                <span className="mt-1 block text-sm text-muted-foreground">Hyderabad, Telangana</span>
+              </span>
+              <ArrowRight className="h-5 w-5 shrink-0 text-primary motion-safe:transition-transform motion-safe:group-hover:translate-x-1" aria-hidden="true" />
+            </Link>
           </div>
         </section>
 

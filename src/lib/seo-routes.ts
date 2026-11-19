@@ -1,20 +1,4 @@
-/**
- * Auto-synced registry of publicly-crawlable routes. Consumed by the
- * /sitemap.xml handler in src/server/entry.ts.
- *
- * DO NOT add or remove paths by hand. Static paths are mirrored here from
- * src/routes.tsx automatically whenever that file is edited (any manual
- * path edit would be overwritten on the next routes.tsx change). For sync
- * to pick up a route, its `path` must be a literal string starting with "/";
- * template literals and identifier refs are skipped, and dynamic-param routes
- * like "/products/:id" are excluded.
- *
- * The only fields safe to hand-edit are the per-entry metadata below, after a
- * sync:
- * - `priority` (0.0–1.0): Home = 1.0, main sections = 0.8, deep pages = 0.5.
- * - `changefreq` and `lastmod`.
- */
-
+// Static routes for prerendering and sitemap generation. Keep in sync with src/routes.tsx.
 export interface SeoRoute {
   path: string;
   changefreq?:
@@ -39,6 +23,7 @@ export const seoRoutes: SeoRoute[] = [
   { path: "/services/duct-area-nets", changefreq: "monthly", priority: 0.7 },
   { path: "/services/monkey-safety-nets", changefreq: "monthly", priority: 0.7 },
   { path: "/services/cloth-hangers", changefreq: "monthly", priority: 0.7 },
+  { path: "/service-areas/bandlaguda-jagir", changefreq: "monthly", priority: 0.8 },
   { path: "/gallery", changefreq: "monthly", priority: 0.8 },
   { path: "/about", changefreq: "monthly", priority: 0.8 },
   { path: "/contact", changefreq: "monthly", priority: 0.8 },
