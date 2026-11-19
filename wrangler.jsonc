@@ -4,6 +4,8 @@
   "main": "cloudflare/worker.ts",
   "compatibility_date": "2026-11-19",
   "workers_dev": true,
+  // Build from source even when Workers Builds has no separate build command.
+  "build": { "command": "npm run build" },
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
