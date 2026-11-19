@@ -30,6 +30,8 @@ export function validateEnquiry(body: unknown, form: EnquiryForm): { data: Enqui
   if (!/^[^\s@<>]+@[^\s@<>.]+(?:\.[^\s@<>.]+)+$/u.test(data.email) || /[\x00-\x1f\x7f]/.test(data.email)) {
     return { field: 'email', error: 'Please enter a valid email address.' };
   }
+  if (form === 'contact-us' && !data.location) return { field: 'location', error: 'Please enter your area or location.' };
+  if (/[\x00-\x1f\x7f]/.test(data.location)) return { field: 'location', error: 'Please enter your area or location on one line.' };
   if (form === 'contact-us' && !data.message) return { field: 'message', error: 'Please enter a message.' };
   if (form === 'quote-request' && !data.service) return { field: 'service', error: 'Please select a service.' };
   return { data };
