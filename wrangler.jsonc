@@ -6,6 +6,8 @@
   "workers_dev": true,
   // Build from source even when Workers Builds has no separate build command.
   "build": { "command": "npm run build" },
+  // Inherit the existing Worker secrets; reject uploads that would omit them.
+  "secrets": { "required": ["RESEND_API_KEY", "CONTACT_FROM_EMAIL"] },
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",

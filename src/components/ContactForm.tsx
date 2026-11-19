@@ -80,6 +80,22 @@ export default function ContactForm() {
         </div>
 
         <div className="flex flex-col gap-1.5">
+          <label htmlFor="cf-location" className="text-sm font-semibold text-foreground">
+            Area / location <span className="text-accent">*</span>
+          </label>
+          <input
+            id="cf-location"
+            name="location"
+            type="text"
+            maxLength={enquiryLimits.location}
+            autoComplete="address-level3"
+            required
+            placeholder="e.g. Bandlaguda Jagir, Hyderabad"
+            className="w-full px-4 py-2.5 rounded-xl border border-border bg-background text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent transition"
+          />
+        </div>
+
+        <div className="flex flex-col gap-1.5">
           <label htmlFor="cf-service" className="text-sm font-semibold text-foreground">
             Service interested in
           </label>
@@ -105,7 +121,7 @@ export default function ContactForm() {
             maxLength={enquiryLimits.message}
             rows={4}
             required
-            placeholder="Tell us about your requirement (location, type of property, etc.)"
+            placeholder="Tell us what you need installed and the type of property"
             className="w-full px-4 py-2.5 rounded-xl border border-border bg-background text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/40 focus:border-accent transition resize-none"
           />
         </div>

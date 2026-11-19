@@ -34,15 +34,33 @@ The Worker name in Cloudflare must match `name` in `wrangler.jsonc`. If you alre
 
 On a successful deployment, open the `workers.dev` URL shown in the dashboard (enable your account's `workers.dev` subdomain first if prompted). To use `aravindsafetynets.in`, attach it to the Worker under **Settings → Domains & Routes** when you're ready to move traffic. Canonicals, social metadata, and the sitemap default to `https://aravindsafetynets.in`. If another origin will be the public site, set `VITE_PUBLIC_URL` to that full HTTPS origin as a **build variable** and redeploy.
 
-### Enable enquiry delivery
+### Enable or restore enquiry delivery
 
-The contact and quote forms POST to the Worker. The Worker sends through [Resend](https://resend.com/) to **aravindsafetynets@gmail.com**. The visitor’s email is set as `Reply-To`, not used as the sender. Set this up **before** publishing the form update:
+Both forms POST to the Cloudflare Worker. It sends through [Resend](https://resend.com/) to **aravindsafetynets@gmail.com**. The visitor's address is `Reply-To`, not the sender. The contact form includes the visitor's name, phone, email, area/location, and message.
 
-1. In Resend, verify a sending domain you control (for example `mail.aravindsafetynets.in`), using the DNS records Resend provides. Use an address on that verified domain as the sender. The default `resend.dev` test sender is limited to sending to the Resend account owner.
-2. In **Worker → Settings → Variables and Secrets**, set `CONTACT_FROM_EMAIL` as a runtime variable (for example `Aravind Safety Nets <enquiries@mail.aravindsafetynets.in>`) and add `RESEND_API_KEY` as a **secret**, using a sending-only key. Don't use a `VITE_` prefix or put the secret in Git. Configure the same settings separately for any preview Worker that needs live email.
-3. Use `npm run preview` with an ignored `.dev.vars` file for a controlled local delivery test, or deploy a configured Worker preview. Submit a labelled test from each form, confirm both arrive in Gmail (check Spam if needed), and verify that Reply goes to the test sender. In case of failure, check the Worker logs for the provider status and Resend's delivery logs. `npm run dev` is for UI development and does not send live email.
+**If the form says “The form is temporarily unavailable”, neither a Gmail password nor a frontend change will fix it.** The running Worker is missing a non-blank `RESEND_API_KEY` or `CONTACT_FROM_EMAIL`; it has not called Resend yet. Set the bindings on the Worker that serves the public domain, not under Workers Builds environment variables. You can fix these settings on the existing Worker before merging any code changes.
 
-Success is shown only after the email provider accepts the enquiry. A retry of unchanged fields in the same form reuses its idempotency key to avoid a second email if the first response was lost. Provider acceptance does not guarantee inbox placement.
+1. **Resend → Domains → Add Domain.** Use a sending subdomain you control, such as `mail.aravindsafetynets.in`. Add the DNS records shown by Resend for that subdomain (in Cloudflare **DNS → Records** if Cloudflare hosts the zone). Don't replace the root domain's MX records. Click **Verify DNS Records** and wait until Resend marks the domain **Verified**. Do not use `@gmail.com` as your sender.
+2. **Resend → API Keys → Create API Key.** Select **Sending access**, restricted to the verified sending domain if offered. Copy the key directly into Cloudflare; don't put it in Git, chat, or frontend environment variables.
+3. **Cloudflare → Workers & Pages → `aravind-safety-nets` → Settings → Variables and Secrets → Add.** Add both of these as **Secret** bindings, and deploy the settings to the active Worker:
+
+   | Secret name | Value |
+   | --- | --- |
+   | `RESEND_API_KEY` | The sending-only key from Resend |
+   | `CONTACT_FROM_EMAIL` | `Aravind Safety Nets <enquiries@mail.aravindsafetynets.in>` if you verified that exact subdomain; otherwise use your verified sending domain |
+
+   If the sender was previously a dashboard text variable, replace it with a Secret of the same name. Wrangler's `secrets.required` lists **names only** and tells deployments to inherit the bindings; uploads should fail if a required binding is absent instead of rolling out another broken form. Configure the bindings on any separate preview Worker as well.
+4. **Test delivery.** Submit a labelled test with a location from `/contact` and a separate quote-form test. Confirm that the thank-you page appears, Resend records the emails under **Emails**, both messages arrive in Gmail (check Spam), the location is included, and Gmail's Reply goes to the test submitter. A Resend receipt is required for form success, but does not guarantee inbox placement.
+
+From an authenticated terminal you can set the same secrets without putting values into shell history. These commands prompt for the values; run them only on the account that owns the Worker:
+
+```sh
+npx wrangler secret put RESEND_API_KEY --name aravind-safety-nets
+npx wrangler secret put CONTACT_FROM_EMAIL --name aravind-safety-nets
+npx wrangler secret list --name aravind-safety-nets
+```
+
+If the test still fails, look at the Worker's **Observability → Logs** while submitting. A `503` logs only which binding names are missing, never secret values or customer data. A provider `401`/`403` in the logs calls for checking the key's validity, domain permissions, and sender-domain verification. For controlled local delivery tests, `npm run preview` loads the two values from a gitignored `.dev.vars` file; `npm run dev` does not send email.
 
 The site continues to use the exported copies of uploaded media and the original remote stock-image URLs from `public/airo-media.json`.
 

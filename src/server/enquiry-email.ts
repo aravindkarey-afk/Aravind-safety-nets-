@@ -24,7 +24,9 @@ const accepted = () => Response.json({ success: true }, { headers: noStore });
 export async function deliverEnquiry(
   form: EnquiryForm, body: unknown, submissionId: string | null, env: EnquiryEmailEnv, allow: () => Promise<boolean>,
 ) {
-  if (body && typeof body === 'object' && '_gotcha' in body && body._gotcha) return accepted();
+  if (body && typeof body === 'object' && '_gotcha' in body && body._gotcha) {
+    return enquiryError('Unable to submit this enquiry.', 400);
+  }
 
   const result = validateEnquiry(body, form);
   if ('error' in result) return enquiryError(result.error, 400);
@@ -33,7 +35,11 @@ export async function deliverEnquiry(
   }
   const { RESEND_API_KEY, CONTACT_FROM_EMAIL } = env;
   if (!RESEND_API_KEY?.trim() || !CONTACT_FROM_EMAIL?.trim()) {
-    console.error('[contact] Missing email transport configuration');
+    const missing = [
+      ...(!RESEND_API_KEY?.trim() ? ['RESEND_API_KEY'] : []),
+      ...(!CONTACT_FROM_EMAIL?.trim() ? ['CONTACT_FROM_EMAIL'] : []),
+    ];
+    console.error('[contact] Missing email transport configuration', { missing });
     return enquiryError('The form is temporarily unavailable. Please contact us by phone or WhatsApp.', 503);
   }
   try {

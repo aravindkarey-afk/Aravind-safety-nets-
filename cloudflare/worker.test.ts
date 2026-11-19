@@ -4,7 +4,7 @@ import worker from './worker';
 
 const origin = 'https://aravindsafetynets.in';
 const key = '1f0747cb-ec11-49b7-9ac1-4e740159201d';
-const validBody = { name: 'శ్రీ కుమార్', email: 'test@example.com', phone: '+91 98765 43210', message: 'Quote please', service: 'Balcony' };
+const validBody = { name: 'శ్రీ కుమార్', email: 'test@example.com', phone: '+91 98765 43210', message: 'Quote please', service: 'Balcony', location: '  Bandlaguda Jagir, Hyderabad  ' };
 const mockEnv = (success = true) => ({
   ASSETS: { fetch: vi.fn(async (_request: Request) => new Response('asset', { headers: { 'Content-Type': 'image/png' } })) },
   CONTACT_RATE_LIMIT: { limit: vi.fn(async () => ({ success })) },
@@ -57,13 +57,13 @@ describe('Cloudflare Worker routes', () => {
       from: env.CONTACT_FROM_EMAIL,
       to: ['aravindsafetynets@gmail.com'],
       reply_to: validBody.email,
-      text: 'Name: శ్రీ కుమార్\nPhone: +919876543210\nEmail: test@example.com\nService: Balcony\n\nMessage:\nQuote please',
+      text: 'Name: శ్రీ కుమార్\nPhone: +919876543210\nEmail: test@example.com\nService: Balcony\nLocation: Bandlaguda Jagir, Hyderabad\n\nMessage:\nQuote please',
     });
   });
 
   it.each([
     { name: ' 123 ' }, { phone: 'abcd123' }, { email: 'a@example.com\nBcc: example.org' }, { message: ' ' },
-    { email: '' }, { name: 42 }, { phone: '123' },
+    { email: '' }, { name: 42 }, { phone: '123' }, { location: ' ' }, { location: 'Hyderabad\nFake field: 1' },
   ])('rejects invalid fields (%j) before attempting delivery', async (fields) => {
     const upstream = vi.fn();
     vi.stubGlobal('fetch', upstream);
@@ -79,12 +79,23 @@ describe('Cloudflare Worker routes', () => {
     expect((await worker.fetch(post('contact-us', { extra: 'x'.repeat(110000) }), env)).status).toBe(413);
     expect((await worker.fetch(post('contact-us', validBody, { Origin: 'https://elsewhere.example' }), env)).status).toBe(403);
     expect((await worker.fetch(post('contact-us', validBody, { 'Idempotency-Key': 'invalid' }), env)).status).toBe(400);
-    expect((await worker.fetch(post('contact-us', { _gotcha: 'spam' }), env)).status).toBe(200);
+    expect((await worker.fetch(post('contact-us', { _gotcha: 'spam' }), env)).status).toBe(400);
     expect((await worker.fetch(post('contact-us', validBody), env)).status).toBe(429);
     expect(upstream).not.toHaveBeenCalled();
   });
 
-  it('fails closed for missing credentials or an unconfirmed provider response and uses the same retry key', async () => {
+  it.each(['RESEND_API_KEY', 'CONTACT_FROM_EMAIL'] as const)('names a missing %s in Worker logs only', async (binding) => {
+    const log = vi.spyOn(console, 'error').mockImplementation(() => {});
+    const upstream = vi.fn();
+    vi.stubGlobal('fetch', upstream);
+    const response = await worker.fetch(post('contact-us', validBody), { ...mockEnv(), [binding]: '  ' });
+    expect(response.status).toBe(503);
+    expect(await response.text()).not.toContain(binding);
+    expect(log).toHaveBeenCalledWith('[contact] Missing email transport configuration', { missing: [binding] });
+    expect(upstream).not.toHaveBeenCalled();
+  });
+
+  it('fails closed for an unconfirmed provider response and uses the same retry key', async () => {
     vi.spyOn(console, 'error').mockImplementation(() => {});
     const upstream = vi.fn<typeof fetch>()
       .mockResolvedValueOnce(Response.json({ message: 'private provider detail' }, { status: 403 }))
@@ -92,8 +103,6 @@ describe('Cloudflare Worker routes', () => {
       .mockResolvedValueOnce(Response.json({ id: 'receipt-2' }));
     vi.stubGlobal('fetch', upstream);
     const env = mockEnv();
-    expect((await worker.fetch(post('contact-us', validBody), { ...env, RESEND_API_KEY: undefined })).status).toBe(503);
-    expect(upstream).not.toHaveBeenCalled();
     const failed = await worker.fetch(post('contact-us', validBody), env);
     expect(failed.status).toBe(502);
     expect(await failed.text()).not.toContain('private provider detail');
