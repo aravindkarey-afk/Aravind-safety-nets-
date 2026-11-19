@@ -1,0 +1,205 @@
+{
+  "hero": {
+    "eyebrow": "About Us",
+    "heading": "Hyderabad's Trusted Safety Net Specialists",
+    "subheading": "10+ years of protecting homes and families across Hyderabad with premium safety nets and invisible grills."
+  },
+  "story": {
+    "heading": "Our Story",
+    "paragraphs": [
+      {
+        "id": "p1",
+        "text": "Aravind Safety Nets was built on a simple belief — every family deserves a safe home. What started as a small, passionate team of installation experts has grown into one of Hyderabad's most trusted names in safety net and invisible grill solutions."
+      },
+      {
+        "id": "p2",
+        "text": "Over the past decade, we have completed 500+ installations across apartments, villas, and commercial buildings throughout Hyderabad. Our reputation has been built one satisfied customer at a time — through honest pricing, quality materials, and workmanship we stand behind."
+      }
+    ]
+  },
+  "stats": [
+    {
+      "id": "st1",
+      "value": "10+",
+      "label": "Years of Experience"
+    },
+    {
+      "id": "st2",
+      "value": "500+",
+      "label": "Installations Completed"
+    },
+    {
+      "id": "st3",
+      "value": "1000+",
+      "label": "Happy Customers"
+    },
+    {
+      "id": "st4",
+      "value": "100%",
+      "label": "Warranty on All Work"
+    }
+  ],
+  "mission": {
+    "heading": "Our Mission & Values",
+    "statement": "To provide every family in Hyderabad with safe, reliable, and affordable protection — installed with care and backed by a warranty.",
+    "values": [
+      {
+        "id": "v1",
+        "title": "Safety First",
+        "description": "Every installation follows strict safety protocols for both our team and your household."
+      },
+      {
+        "id": "v2",
+        "title": "Quality Materials",
+        "description": "We use only premium-grade, UV-resistant nets and corrosion-proof grill components built to last."
+      },
+      {
+        "id": "v3",
+        "title": "Honest Pricing",
+        "description": "Transparent quotes with no hidden charges — you know exactly what you pay before we begin."
+      },
+      {
+        "id": "v4",
+        "title": "Customer Satisfaction",
+        "description": "We don't consider a job done until you are completely happy with the result."
+      }
+    ]
+  },
+  "founder": {
+    "heading": "Meet Our Founder",
+    "name": "Aravind",
+    "role": "Founder & Lead Technician",
+    "bio": "With over 10 years of hands-on experience in safety net installation, Aravind founded this company to bring professional, reliable, and affordable safety solutions to every home in Hyderabad. He personally oversees every project to ensure the highest standards of quality and safety."
+  },
+  "whyUs": {
+    "heading": "Why Choose Aravind Safety Nets",
+    "points": [
+      {
+        "id": "w1",
+        "title": "Same-Day Installation",
+        "description": "We offer same-day installation across Hyderabad — no long waiting periods."
+      },
+      {
+        "id": "w2",
+        "title": "Trained Technicians",
+        "description": "Our team is fully trained, experienced, and equipped to handle any installation safely."
+      },
+      {
+        "id": "w3",
+        "title": "Warranty Backed",
+        "description": "All installations come with a warranty so you have complete peace of mind."
+      },
+      {
+        "id": "w4",
+        "title": "Wide Range of Services",
+        "description": "From pigeon nets to invisible grills, we cover every safety need for your home."
+      },
+      {
+        "id": "w5",
+        "title": "Affordable Pricing",
+        "description": "Competitive rates without compromising on quality — the best value in Hyderabad."
+      },
+      {
+        "id": "w6",
+        "title": "Trusted by 1000+ Families",
+        "description": "Our growing list of satisfied customers across Hyderabad speaks for itself."
+      }
+    ]
+  },
+  "serviceArea": {
+    "heading": "Areas We Serve",
+    "description": "We provide safety net and invisible grill installation across all major localities in Hyderabad and Secunderabad.",
+    "localities": [
+      {
+        "id": "a1",
+        "name": "Gachibowli"
+      },
+      {
+        "id": "a2",
+        "name": "Hitech City"
+      },
+      {
+        "id": "a3",
+        "name": "Kondapur"
+      },
+      {
+        "id": "a4",
+        "name": "Madhapur"
+      },
+      {
+        "id": "a5",
+        "name": "Banjara Hills"
+      },
+      {
+        "id": "a6",
+        "name": "Jubilee Hills"
+      },
+      {
+        "id": "a7",
+        "name": "Kukatpally"
+      },
+      {
+        "id": "a8",
+        "name": "Miyapur"
+      },
+      {
+        "id": "a9",
+        "name": "Secunderabad"
+      },
+      {
+        "id": "a10",
+        "name": "Ameerpet"
+      },
+      {
+        "id": "a11",
+        "name": "Begumpet"
+      },
+      {
+        "id": "a12",
+        "name": "Manikonda"
+      },
+      {
+        "id": "a13",
+        "name": "Nallagandla"
+      },
+      {
+        "id": "a14",
+        "name": "Tellapur"
+      },
+      {
+        "id": "a15",
+        "name": "Kompally"
+      },
+      {
+        "id": "a16",
+        "name": "LB Nagar"
+      }
+    ]
+  },
+  "quality": {
+    "heading": "Our Quality Promise",
+    "points": [
+      {
+        "id": "q1",
+        "title": "Premium Grade Materials",
+        "description": "We source only high-quality, UV-resistant nets and corrosion-proof grill components."
+      },
+      {
+        "id": "q2",
+        "title": "Safe Installation Practices",
+        "description": "All work follows strict safety protocols — no shortcuts, no compromises."
+      },
+      {
+        "id": "q3",
+        "title": "Post-Installation Support",
+        "description": "We remain available after installation for any adjustments or warranty claims."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to Make Your Home Safer?",
+    "subheading": "Get a free quote today — same-day installation available across Hyderabad.",
+    "buttonPrimary": "Get a Free Quote",
+    "buttonSecondary": "Call Us Now"
+  }
+}

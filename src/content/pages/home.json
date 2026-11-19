@@ -1,0 +1,140 @@
+{
+  "hero": {
+    "heading": "Protect Your Home with Premium Safety Nets",
+    "subheading": "High-quality pigeon nets, children safety nets, invisible grills, and balcony solutions — professionally installed across Hyderabad.",
+    "ctaCall": "Call Now",
+    "ctaWhatsApp": "WhatsApp",
+    "ctaQuote": "Get Free Quote"
+  },
+  "trustBadges": [
+    {
+      "id": "tb1",
+      "text": "500+ Installations"
+    },
+    {
+      "id": "tb2",
+      "text": "Same-Day Service"
+    },
+    {
+      "id": "tb3",
+      "text": "Warranty Included"
+    },
+    {
+      "id": "tb4",
+      "text": "Hyderabad's #1 Choice"
+    }
+  ],
+  "services": {
+    "heading": "Our Services",
+    "subheading": "Complete safety net and grill solutions for every need",
+    "items": [
+      {
+        "id": "s1",
+        "name": "Pigeon Safety Nets",
+        "description": "Keep pigeons and birds away from your balcony, terrace, and AC units with durable, UV-resistant nets.",
+        "featured": true
+      },
+      {
+        "id": "s2",
+        "name": "Children Safety Nets",
+        "description": "Protect your children from falls with strong, certified safety nets for balconies and staircases.",
+        "featured": true
+      },
+      {
+        "id": "s3",
+        "name": "Invisible Grills",
+        "description": "Stainless steel invisible grills that offer security without blocking your view or natural light.",
+        "featured": false
+      },
+      {
+        "id": "s4",
+        "name": "Balcony Safety Nets",
+        "description": "Full balcony enclosure nets for complete protection against falls, birds, and debris.",
+        "featured": false
+      },
+      {
+        "id": "s5",
+        "name": "Duct Area Nets",
+        "description": "Prevent birds and pests from nesting in duct areas with custom-fitted protective nets.",
+        "featured": false
+      },
+      {
+        "id": "s6",
+        "name": "Bird Spikes",
+        "description": "Stainless steel bird spikes installed on ledges, railings, and rooftops to humanely deter pigeons and birds from landing.",
+        "featured": false
+      },
+      {
+        "id": "s7",
+        "name": "Cloth Hangers",
+        "description": "Convenient and sturdy cloth hanger systems for balconies — durable, rust-proof, and easy to use.",
+        "featured": false
+      }
+    ]
+  },
+  "about": {
+    "heading": "Trusted Safety Solutions in Hyderabad",
+    "body": "Aravind Safety Nets is Hyderabad's go-to specialist for residential and apartment safety installations. We bring years of hands-on experience, premium materials, and a commitment to getting every job done right — the first time.",
+    "highlights": [
+      {
+        "id": "h1",
+        "text": "Experienced, trained installation technicians"
+      },
+      {
+        "id": "h2",
+        "text": "Affordable pricing with no hidden charges"
+      },
+      {
+        "id": "h3",
+        "text": "Warranty on all installations"
+      },
+      {
+        "id": "h4",
+        "text": "Serving all areas of Hyderabad and Telangana"
+      }
+    ]
+  },
+  "whyUs": {
+    "heading": "Why Choose Aravind Safety Nets?",
+    "subheading": "We deliver more than just nets — we deliver peace of mind",
+    "items": [
+      {
+        "id": "w1",
+        "title": "Premium Materials",
+        "description": "We use only high-grade, UV-resistant, and weatherproof materials built to last."
+      },
+      {
+        "id": "w2",
+        "title": "Experienced Technicians",
+        "description": "Our trained team handles every installation with precision and care."
+      },
+      {
+        "id": "w3",
+        "title": "Affordable Pricing",
+        "description": "Competitive rates with transparent quotes — no surprises, no hidden fees."
+      },
+      {
+        "id": "w4",
+        "title": "Same-Day Installation",
+        "description": "Fast turnaround — we can often install the same day you call us."
+      },
+      {
+        "id": "w5",
+        "title": "Warranty Support",
+        "description": "All our installations come with a warranty for your complete peace of mind."
+      },
+      {
+        "id": "w6",
+        "title": "100% Customer Satisfaction",
+        "description": "We don't leave until you're fully satisfied with the work done."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Ready to Protect Your Home?",
+    "subheading": "Call us, WhatsApp us, or request a free quote — we respond fast.",
+    "phone": "9491173428",
+    "email": "aravindsafetynets@gmail.com",
+    "location": "Hyderabad, Telangana"
+  }
+}

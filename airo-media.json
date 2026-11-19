@@ -1,0 +1,1043 @@
+{
+  "pages/home/invisible-grills": {
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-2-1b9847c9.webp",
+    "searchQuery": "modern balcony overlooking lit sports field",
+    "alternatives": [
+      "/airo-assets/uploads/pages-home-invisible-grills-1b9847c9.webp",
+      "https://img1.wsimg.com/isteam/getty/1460733361",
+      "https://img1.wsimg.com/isteam/getty/2285147154",
+      "https://img1.wsimg.com/isteam/getty/2243675816",
+      "https://img1.wsimg.com/isteam/getty/2227058700",
+      "https://img1.wsimg.com/isteam/getty/1266807874"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T14:58:55.135Z",
+    "lastUpdated": "2026-10-30T03:39:25.952Z",
+    "alternativeGettyIds": [
+      "",
+      "1460733361",
+      "2285147154",
+      "2243675816",
+      "2227058700",
+      "1266807874"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/pages-home-invisible-grills-1b9847c9.webp": "xdshmdghuf_1787671587804_file_QNZ3v7Qr1W.webp"
+    },
+    "uploadContentHash": "511a97fa8edaf614cf193983e37acd3f9bc06380f719c0bcd88c19315ee6c764",
+    "caption": "modern balcony overlooking lit sports field",
+    "resizedUrl": "/airo-assets/uploads/variants/7a679ba3b4890fb1cb92f31492b2a4e8.webp",
+    "resizedFrom": {
+      "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-2-1b9847c9.webp",
+      "sourceBytes": 111372,
+      "requestedSize": {
+        "width": 600,
+        "height": 400,
+        "fit": "cover"
+      }
+    }
+  },
+  "pages/home/about": {
+    "requestedSize": {
+      "width": 700,
+      "height": 500,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1453484065",
+    "searchQuery": "technician installing safety net on apartment building",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2251778039",
+      "https://img1.wsimg.com/isteam/getty/1772197520",
+      "https://img1.wsimg.com/isteam/getty/2247634494",
+      "https://img1.wsimg.com/isteam/getty/2288388290"
+    ],
+    "userModified": false,
+    "createdAt": "2026-08-25T14:58:56.829Z",
+    "lastUpdated": "2026-08-25T14:58:56.829Z",
+    "gettyId": "1453484065",
+    "alternativeGettyIds": [
+      "2251778039",
+      "1772197520",
+      "2247634494",
+      "2288388290"
+    ]
+  },
+  "pages/home/children-safety-net": {
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-children-net-1-1de61280.jpg",
+    "searchQuery": "child feeding animal through cage net",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1397263562",
+      "https://img1.wsimg.com/isteam/getty/1830326755",
+      "https://img1.wsimg.com/isteam/getty/2284351550",
+      "https://img1.wsimg.com/isteam/getty/2182658234",
+      "https://img1.wsimg.com/isteam/getty/1273576769"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T14:58:58.207Z",
+    "lastUpdated": "2026-10-30T03:39:25.952Z",
+    "alternativeGettyIds": [
+      "1397263562",
+      "1830326755",
+      "2284351550",
+      "2182658234",
+      "1273576769"
+    ],
+    "caption": "child feeding animal through cage net",
+    "resizedUrl": "/airo-assets/uploads/variants/5c10cbfab55fc999c16fd9ee100febc8.jpg",
+    "resizedFrom": {
+      "currentUrl": "/airo-assets/uploads/gallery-children-net-1-1de61280.jpg",
+      "sourceBytes": 291633,
+      "requestedSize": {
+        "width": 600,
+        "height": 400,
+        "fit": "cover"
+      }
+    }
+  },
+  "pages/home/hero": {
+    "requestedSize": {
+      "width": 800,
+      "height": 1000,
+      "fit": "cover"
+    },
+    "orientations": "vertical",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2219892616",
+    "searchQuery": "safety net installation on apartment balcony",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2237784493",
+      "https://img1.wsimg.com/isteam/getty/2190339841",
+      "https://img1.wsimg.com/isteam/getty/1812633340",
+      "https://img1.wsimg.com/isteam/getty/2255542604"
+    ],
+    "userModified": false,
+    "createdAt": "2026-08-25T14:58:59.812Z",
+    "lastUpdated": "2026-08-25T14:58:59.812Z",
+    "gettyId": "2219892616",
+    "alternativeGettyIds": [
+      "2237784493",
+      "2190339841",
+      "1812633340",
+      "2255542604"
+    ]
+  },
+  "pages/home/pigeon-nets": {
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-3-2d99fcc0.webp",
+    "searchQuery": "high-rise balcony overlooking urban cityscape",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1207003376",
+      "https://img1.wsimg.com/isteam/getty/2225745074",
+      "https://img1.wsimg.com/isteam/getty/2287586661",
+      "https://img1.wsimg.com/isteam/getty/2251510105",
+      "https://img1.wsimg.com/isteam/getty/2256190143"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T14:59:01.319Z",
+    "lastUpdated": "2026-10-30T03:39:25.952Z",
+    "alternativeGettyIds": [
+      "1207003376",
+      "2225745074",
+      "2287586661",
+      "2251510105",
+      "2256190143"
+    ],
+    "caption": "high-rise balcony overlooking urban cityscape",
+    "resizedUrl": "/airo-assets/uploads/variants/f7a5cfde3b30781f1d98215128f49db2.webp",
+    "resizedFrom": {
+      "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-3-2d99fcc0.webp",
+      "sourceBytes": 349502,
+      "requestedSize": {
+        "width": 600,
+        "height": 400,
+        "fit": "cover"
+      }
+    }
+  },
+  "logo/horizontal": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-horizontal-7ab151d3.png",
+    "searchQuery": "",
+    "alternatives": [
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/11b93535-96cc-4328-8500-b79612ca726e/horizontal-transparent-42698343-9321-4024-904f-8ce7993b30ef/logo-logo.png",
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/2f4802f3-bf10-48ee-af36-59408a740fb5/horizontal-transparent-7ff635e2-9aa5-47c7-ac72-e82a12d41079/logo-logo.png",
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/60c16dd8-7707-4daf-95ea-317371914351/transparent-bca89380-b2fa-4595-ad01-89fe7fdc78bf/logo-logo.png"
+    ],
+    "productMockupsMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/8d93d2d0-c806-41d4-91b7-88cf559f91bf/horizontal-transparent-2aca8741-4fb0-4560-a264-5c63792e1236/logo-logo.png": [
+        {
+          "type": "mug",
+          "label": "Mug",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/8d93d2d0-c806-41d4-91b7-88cf559f91bf/horizontal-mockup-mug-2aca8741-4fb0-4560-a264-5c63792e1236/logo-logo.png"
+        },
+        {
+          "type": "card",
+          "label": "Business Card",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/8d93d2d0-c806-41d4-91b7-88cf559f91bf/horizontal-mockup-card-2aca8741-4fb0-4560-a264-5c63792e1236/logo-logo.png"
+        },
+        {
+          "type": "tshirt",
+          "label": "T-Shirt",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/8d93d2d0-c806-41d4-91b7-88cf559f91bf/horizontal-mockup-tshirt-2aca8741-4fb0-4560-a264-5c63792e1236/logo-logo.png"
+        },
+        {
+          "type": "box",
+          "label": "Packaging",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/8d93d2d0-c806-41d4-91b7-88cf559f91bf/horizontal-mockup-box-2aca8741-4fb0-4560-a264-5c63792e1236/logo-logo.png"
+        }
+      ],
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/2f4802f3-bf10-48ee-af36-59408a740fb5/horizontal-transparent-7ff635e2-9aa5-47c7-ac72-e82a12d41079/logo-logo.png": [
+        {
+          "type": "mug",
+          "label": "Mug",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/2f4802f3-bf10-48ee-af36-59408a740fb5/horizontal-mockup-mug-7ff635e2-9aa5-47c7-ac72-e82a12d41079/logo-logo.png"
+        },
+        {
+          "type": "card",
+          "label": "Business Card",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/2f4802f3-bf10-48ee-af36-59408a740fb5/horizontal-mockup-card-7ff635e2-9aa5-47c7-ac72-e82a12d41079/logo-logo.png"
+        },
+        {
+          "type": "tshirt",
+          "label": "T-Shirt",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/2f4802f3-bf10-48ee-af36-59408a740fb5/horizontal-mockup-tshirt-7ff635e2-9aa5-47c7-ac72-e82a12d41079/logo-logo.png"
+        },
+        {
+          "type": "box",
+          "label": "Packaging",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/2f4802f3-bf10-48ee-af36-59408a740fb5/horizontal-mockup-box-7ff635e2-9aa5-47c7-ac72-e82a12d41079/logo-logo.png"
+        }
+      ],
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/11b93535-96cc-4328-8500-b79612ca726e/horizontal-transparent-42698343-9321-4024-904f-8ce7993b30ef/logo-logo.png": [
+        {
+          "type": "mug",
+          "label": "Mug",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/11b93535-96cc-4328-8500-b79612ca726e/horizontal-mockup-mug-42698343-9321-4024-904f-8ce7993b30ef/logo-logo.png"
+        },
+        {
+          "type": "card",
+          "label": "Business Card",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/11b93535-96cc-4328-8500-b79612ca726e/horizontal-mockup-card-42698343-9321-4024-904f-8ce7993b30ef/logo-logo.png"
+        },
+        {
+          "type": "tshirt",
+          "label": "T-Shirt",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/11b93535-96cc-4328-8500-b79612ca726e/horizontal-mockup-tshirt-42698343-9321-4024-904f-8ce7993b30ef/logo-logo.png"
+        },
+        {
+          "type": "box",
+          "label": "Packaging",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/11b93535-96cc-4328-8500-b79612ca726e/horizontal-mockup-box-42698343-9321-4024-904f-8ce7993b30ef/logo-logo.png"
+        }
+      ]
+    },
+    "productMockups": [
+      {
+        "type": "mug",
+        "label": "Mug",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/11b93535-96cc-4328-8500-b79612ca726e/horizontal-mockup-mug-42698343-9321-4024-904f-8ce7993b30ef/logo-logo.png"
+      },
+      {
+        "type": "card",
+        "label": "Business Card",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/11b93535-96cc-4328-8500-b79612ca726e/horizontal-mockup-card-42698343-9321-4024-904f-8ce7993b30ef/logo-logo.png"
+      },
+      {
+        "type": "tshirt",
+        "label": "T-Shirt",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/11b93535-96cc-4328-8500-b79612ca726e/horizontal-mockup-tshirt-42698343-9321-4024-904f-8ce7993b30ef/logo-logo.png"
+      },
+      {
+        "type": "box",
+        "label": "Packaging",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/11b93535-96cc-4328-8500-b79612ca726e/horizontal-mockup-box-42698343-9321-4024-904f-8ce7993b30ef/logo-logo.png"
+      }
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T14:59:40.540Z",
+    "lastUpdated": "2026-10-03T05:08:00.273Z",
+    "surfaceMode": "dark",
+    "uploadSources": {
+      "/airo-assets/uploads/logo-horizontal-7ab151d3.png": "xdshmdghuf_1791004050407_file_ITt1hrpiwK.png"
+    },
+    "uploadContentHash": "1d7ba1241a3ec8f37ace1b5ea476f9aafedf4e76993aa5154d6ceef4e68fb120",
+    "naturalOrientation": "horizontal",
+    "darkSurfaceUrl": "/airo-assets/uploads/logo-horizontal-7ab151d3.png"
+  },
+  "logo/favicon": {
+    "mediaType": "logo",
+    "currentUrl": "/airo-assets/uploads/logo-favicon-917b25c5.png",
+    "searchQuery": "",
+    "alternatives": [
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/7de251ca-3425-4edf-9a9a-76a063a5385d/favicon-transparent-6ddc2a1b-00d8-4d1c-ae42-a4c7771c66ee/logo-logo.png",
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/62e17983-acb1-4f40-b760-5ee3ad1713db/session/dc59bfc7-79a3-4690-9bab-e9366ec82ace/favicon-transparent-2fceaede-b964-4406-82e2-143801d25840/logo-logo.png"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:00:03.626Z",
+    "lastUpdated": "2026-10-03T05:08:00.273Z",
+    "surfaceMode": "dark",
+    "darkSurfaceUrl": "/airo-assets/uploads/logo-favicon-917b25c5.png",
+    "uploadSources": {
+      "/airo-assets/uploads/logo-favicon-917b25c5.png": "xdshmdghuf_1791004050407_file_ITt1hrpiwK.png"
+    },
+    "uploadContentHash": "1d7ba1241a3ec8f37ace1b5ea476f9aafedf4e76993aa5154d6ceef4e68fb120"
+  },
+  "pages/services/children-safety-nets/hero": {
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1830326757",
+    "searchQuery": "child safety net balcony protection apartment",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1830322876",
+      "https://img1.wsimg.com/isteam/getty/1830326755"
+    ],
+    "userModified": false,
+    "createdAt": "2026-08-25T15:08:37.301Z",
+    "lastUpdated": "2026-08-25T15:08:37.301Z",
+    "gettyId": "1830326757",
+    "alternativeGettyIds": [
+      "1830322876",
+      "1830326755"
+    ]
+  },
+  "pages/services/monkey-safety-nets/hero": {
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2253529233",
+    "searchQuery": "tabby cat behind protective safety net",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1207003376",
+      "https://img1.wsimg.com/isteam/getty/1526613319",
+      "https://img1.wsimg.com/isteam/getty/2257277054",
+      "https://img1.wsimg.com/isteam/getty/2268561802",
+      "https://img1.wsimg.com/isteam/getty/2243823517",
+      "https://img1.wsimg.com/isteam/getty/2212513678",
+      "https://img1.wsimg.com/isteam/getty/2211909715"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:38.840Z",
+    "lastUpdated": "2026-09-01T11:28:14.199Z",
+    "alternativeGettyIds": [
+      "",
+      "1526613319",
+      "2257277054",
+      "2268561802",
+      "2243823517",
+      "2212513678",
+      "2211909715"
+    ],
+    "gettyId": "2253529233",
+    "caption": "tabby cat behind protective safety net"
+  },
+  "pages/services/cloth-hangers/hero": {
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2198238321",
+    "searchQuery": "white electrical wires hanging from ceiling",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2181891357",
+      "https://img1.wsimg.com/isteam/getty/1413893975",
+      "https://img1.wsimg.com/isteam/getty/2144229616",
+      "https://img1.wsimg.com/isteam/getty/2203060244",
+      "https://img1.wsimg.com/isteam/getty/2284600197",
+      "https://img1.wsimg.com/isteam/getty/2251134660"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:40.474Z",
+    "lastUpdated": "2026-08-25T15:34:19.363Z",
+    "gettyId": "2198238321",
+    "alternativeGettyIds": [
+      "2181891357",
+      "1413893975",
+      "2144229616",
+      "2203060244",
+      "2284600197",
+      "2251134660"
+    ],
+    "caption": "white electrical wires hanging from ceiling"
+  },
+  "pages/services/duct-area-nets/hero": {
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-services-duct-area-nets-hero-fedc6e30.jpg",
+    "searchQuery": "",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2228300492",
+      "https://img1.wsimg.com/isteam/getty/497861636",
+      "https://img1.wsimg.com/isteam/getty/2256190143"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:42.193Z",
+    "lastUpdated": "2026-09-01T11:16:33.525Z",
+    "alternativeGettyIds": [
+      "2228300492",
+      "497861636",
+      "2256190143"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/pages-services-duct-area-nets-hero-fedc6e30.jpg": "xdshmdghuf_1788261317489_file_PpXeAo9oIy.jpg"
+    },
+    "uploadContentHash": "f7f58294df42ebc69d587e587dac5feb15b933aba931f135fa55e94123d97543"
+  },
+  "pages/services/balcony-safety-nets/hero": {
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2219892617",
+    "searchQuery": "balcony safety net enclosure apartment high rise",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2188646261",
+      "https://img1.wsimg.com/isteam/getty/2284351553"
+    ],
+    "userModified": false,
+    "createdAt": "2026-08-25T15:08:43.788Z",
+    "lastUpdated": "2026-08-25T15:08:43.788Z",
+    "gettyId": "2219892617",
+    "alternativeGettyIds": [
+      "2188646261",
+      "2284351553"
+    ]
+  },
+  "gallery/pigeon-net-3": {
+    "orientations": "square",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-pigeon-net-3-41ec9245.webp",
+    "searchQuery": "pigeon landing on wire fence",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1159530391",
+      "https://img1.wsimg.com/isteam/getty/2269336128",
+      "https://img1.wsimg.com/isteam/getty/2251743181"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:45.513Z",
+    "lastUpdated": "2026-09-02T11:13:19.874Z",
+    "alternativeGettyIds": [
+      "1159530391",
+      "2269336128",
+      "2251743181"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/gallery-pigeon-net-3-41ec9245.webp": "xdshmdghuf_1788264398762_file_otuhHbTZnD.webp"
+    },
+    "uploadContentHash": "12c87d9737fc9f7be6bdcc21c23faa3347979a353dee7722072d044606d4adc5",
+    "caption": "pigeon landing on wire fence"
+  },
+  "gallery/balcony-net-1": {
+    "orientations": "square",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-pigeon-net-2-191c23b5.jpg",
+    "searchQuery": "",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1311105562",
+      "https://img1.wsimg.com/isteam/getty/2268223514",
+      "https://img1.wsimg.com/isteam/getty/2214540779"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:45.849Z",
+    "lastUpdated": "2026-09-01T12:02:33.904Z",
+    "alternativeGettyIds": [
+      "1311105562",
+      "2268223514",
+      "2214540779"
+    ]
+  },
+  "gallery/children-net-1": {
+    "orientations": "square",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-children-net-1-1de61280.jpg",
+    "searchQuery": "child feeding animal through cage net",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/500798797",
+      "https://img1.wsimg.com/isteam/getty/1287565527",
+      "https://img1.wsimg.com/isteam/getty/1448940437"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:46.256Z",
+    "lastUpdated": "2026-09-01T11:51:39.866Z",
+    "alternativeGettyIds": [
+      "500798797",
+      "1287565527",
+      "1448940437"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/gallery-children-net-1-1de61280.jpg": "xdshmdghuf_1788263463370_file_v-zmhpoBwT.jpg"
+    },
+    "uploadContentHash": "579f453c7fd69f76e56d697d81f2ad5165048dd722249f7f91d6ba93dc3487ea",
+    "caption": "child feeding animal through cage net"
+  },
+  "gallery/invisible-grill-1": {
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-1-d9034dce.jpg",
+    "searchQuery": "",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2272027531",
+      "https://img1.wsimg.com/isteam/getty/2228340413",
+      "https://img1.wsimg.com/isteam/getty/1215112207",
+      "https://img1.wsimg.com/isteam/getty/2191432194",
+      "https://img1.wsimg.com/isteam/getty/1919277484"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:46.671Z",
+    "lastUpdated": "2026-08-25T15:32:35.296Z",
+    "alternativeGettyIds": [
+      "2272027531",
+      "2228340413",
+      "1215112207",
+      "2191432194",
+      "1919277484"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/gallery-invisible-grill-1-d9034dce.jpg": "xdshmdghuf_1787671911467_file_vyXlQRuQ8I.jpg"
+    },
+    "uploadContentHash": "f795ce5ccb00b2a48318141afe6533c04664d45221319a4ebf64dc14157e5315"
+  },
+  "gallery/balcony-net-2": {
+    "orientations": "square",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-duct-area-net-1-e922d80b.jpg",
+    "searchQuery": "person rappelling down apartment building",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/171354810",
+      "https://img1.wsimg.com/isteam/getty/2268223514",
+      "https://img1.wsimg.com/isteam/getty/2283561874"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:48.102Z",
+    "lastUpdated": "2026-09-01T12:41:49.506Z",
+    "alternativeGettyIds": [
+      "171354810",
+      "2268223514",
+      "2283561874"
+    ],
+    "caption": "person rappelling down apartment building"
+  },
+  "gallery/children-net-3": {
+    "orientations": "square",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2190804653",
+    "searchQuery": "electrical utility boxes building exterior",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2210544301",
+      "https://img1.wsimg.com/isteam/getty/1311105562",
+      "https://img1.wsimg.com/isteam/getty/1452458725"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:49.911Z",
+    "lastUpdated": "2026-09-01T12:20:41.344Z",
+    "alternativeGettyIds": [
+      "2210544301",
+      "1311105562",
+      "1452458725"
+    ],
+    "caption": "electrical utility boxes building exterior"
+  },
+  "gallery/invisible-grill-3": {
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-3-2d99fcc0.webp",
+    "searchQuery": "high-rise balcony overlooking urban cityscape",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1241608509",
+      "https://img1.wsimg.com/isteam/getty/131776645",
+      "https://img1.wsimg.com/isteam/getty/147205663",
+      "https://img1.wsimg.com/isteam/getty/172193157",
+      "https://img1.wsimg.com/isteam/getty/1287051178"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:50.350Z",
+    "lastUpdated": "2026-08-25T15:32:36.197Z",
+    "alternativeGettyIds": [
+      "1241608509",
+      "131776645",
+      "147205663",
+      "172193157",
+      "1287051178"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/gallery-invisible-grill-3-2d99fcc0.webp": "xdshmdghuf_1787671476569_file_Nobr_JvE8W.webp"
+    },
+    "uploadContentHash": "8947b6fa4abf6bf3a12f57edc7bbe5f3028ec05fae0a6aa042139e9a244d151f",
+    "caption": "high-rise balcony overlooking urban cityscape"
+  },
+  "gallery/children-net-2": {
+    "orientations": "square",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-children-net-2-cbf00e85.jpg",
+    "searchQuery": "black cat climbing balcony safety net",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2268015960",
+      "https://img1.wsimg.com/isteam/getty/180898431",
+      "https://img1.wsimg.com/isteam/getty/1495508473"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:51.080Z",
+    "lastUpdated": "2026-09-01T11:53:18.211Z",
+    "alternativeGettyIds": [
+      "2268015960",
+      "180898431",
+      "1495508473"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/gallery-children-net-2-cbf00e85.jpg": "xdshmdghuf_1788261886558_file_Iq8HSiRiE0.jpg"
+    },
+    "uploadContentHash": "17b6d8b7d9532b3082c615e72914f3fbe3c1f69f5b05b31e36edc2a8623f899b",
+    "caption": "black cat climbing balcony safety net"
+  },
+  "pages/services/pigeon-safety-nets/hero": {
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2190804653",
+    "searchQuery": "electrical boxes on weathered building exterior",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1391124722",
+      "https://img1.wsimg.com/isteam/getty/2284351553",
+      "https://img1.wsimg.com/isteam/getty/2256190143"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:52.312Z",
+    "lastUpdated": "2026-08-25T15:25:55.826Z",
+    "gettyId": "2190804653",
+    "alternativeGettyIds": [
+      "1391124722",
+      "2284351553",
+      "2256190143"
+    ],
+    "caption": "electrical boxes on weathered building exterior"
+  },
+  "gallery/invisible-grill-2": {
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-2-1b9847c9.webp",
+    "searchQuery": "modern balcony overlooking lit sports field",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2284268607",
+      "https://img1.wsimg.com/isteam/getty/130408193",
+      "https://img1.wsimg.com/isteam/getty/2255838037",
+      "https://img1.wsimg.com/isteam/getty/1864149987",
+      "https://img1.wsimg.com/isteam/getty/2233581010"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:54.288Z",
+    "lastUpdated": "2026-08-25T15:32:35.688Z",
+    "alternativeGettyIds": [
+      "2284268607",
+      "130408193",
+      "2255838037",
+      "1864149987",
+      "2233581010"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/gallery-invisible-grill-2-1b9847c9.webp": "xdshmdghuf_1787671587804_file_QNZ3v7Qr1W.webp"
+    },
+    "uploadContentHash": "511a97fa8edaf614cf193983e37acd3f9bc06380f719c0bcd88c19315ee6c764",
+    "caption": "modern balcony overlooking lit sports field"
+  },
+  "gallery/pigeon-net-1": {
+    "orientations": "square",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-pigeon-net-1-0b5ab004.jpg",
+    "searchQuery": "apartment building view through balcony netting",
+    "alternatives": [
+      "/airo-assets/uploads/gallery-duct-area-net-1-1ff33470.jpg",
+      "https://img1.wsimg.com/isteam/getty/1322609965",
+      "https://img1.wsimg.com/isteam/getty/1452458725",
+      "https://img1.wsimg.com/isteam/getty/2107991681"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:54.624Z",
+    "lastUpdated": "2026-09-01T11:53:14.444Z",
+    "alternativeGettyIds": [
+      "",
+      "1322609965",
+      "1452458725",
+      "2107991681"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/gallery-pigeon-net-1-0b5ab004.jpg": "xdshmdghuf_1788263560265_file_yZuRXg5i_I.jpg"
+    },
+    "uploadContentHash": "41f7aa03ba4c7ceb946ed115c7501fe129f025e756f2eb14e97f90199b6fe139",
+    "caption": "apartment building view through balcony netting"
+  },
+  "pages/services/invisible-grills/hero": {
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-2-1b9847c9.webp",
+    "searchQuery": "modern balcony overlooking lit sports field",
+    "alternatives": [
+      "/airo-assets/uploads/pages-services-invisible-grills-hero-d9034dce.jpg",
+      "https://img1.wsimg.com/isteam/getty/2228310958",
+      "https://img1.wsimg.com/isteam/getty/1198237653",
+      "https://img1.wsimg.com/isteam/getty/2232296371",
+      "https://img1.wsimg.com/isteam/getty/1494599139",
+      "https://img1.wsimg.com/isteam/getty/2262270801",
+      "https://img1.wsimg.com/isteam/getty/2191432194"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:54.983Z",
+    "lastUpdated": "2026-08-25T15:36:30.434Z",
+    "alternativeGettyIds": [
+      "",
+      "2228310958",
+      "1198237653",
+      "2232296371",
+      "1494599139",
+      "2262270801",
+      "2191432194"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/pages-services-invisible-grills-hero-d9034dce.jpg": "xdshmdghuf_1787671911467_file_vyXlQRuQ8I.jpg"
+    },
+    "uploadContentHash": "f795ce5ccb00b2a48318141afe6533c04664d45221319a4ebf64dc14157e5315",
+    "caption": "modern balcony overlooking lit sports field"
+  },
+  "gallery/balcony-net-3": {
+    "orientations": "square",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/952075142",
+    "searchQuery": "balcony railing overlooking urban apartment buildings",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1269581627",
+      "https://img1.wsimg.com/isteam/getty/2284430454",
+      "https://img1.wsimg.com/isteam/getty/2268223514"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:56.366Z",
+    "lastUpdated": "2026-09-01T12:08:39.902Z",
+    "alternativeGettyIds": [
+      "1269581627",
+      "2284430454",
+      "2268223514"
+    ],
+    "caption": "balcony railing overlooking urban apartment buildings"
+  },
+  "gallery/pigeon-net-2": {
+    "orientations": "square",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-pigeon-net-2-191c23b5.jpg",
+    "searchQuery": "",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2284430454",
+      "https://img1.wsimg.com/isteam/getty/1269581627",
+      "https://img1.wsimg.com/isteam/getty/2274279908"
+    ],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:08:58.725Z",
+    "lastUpdated": "2026-09-01T11:58:51.535Z",
+    "alternativeGettyIds": [
+      "2284430454",
+      "1269581627",
+      "2274279908"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/gallery-pigeon-net-2-191c23b5.jpg": "xdshmdghuf_1788263708764_file_eh0nHfOWpw.jpg"
+    },
+    "uploadContentHash": "3ecc097e6e6efa8195e89980219a2df0c2a29bd4398c78dd6bc1cdb966a7da59"
+  },
+  "uploads/hero-1000084026": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/uploads-hero-1000084026-95c3aa57.png",
+    "searchQuery": "aravind safety nets company logo sign",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-08-25T15:36:09.284Z",
+    "lastUpdated": "2026-08-25T15:36:09.284Z",
+    "uploadSources": {
+      "/airo-assets/uploads/uploads-hero-1000084026-95c3aa57.png": "xdshmdghuf_1787672168387_file_yvfPmj4gQS.png"
+    },
+    "uploadContentHash": "c2f4ca5013cec36e98dc48b2989451a516fe5afe855d4b73964c1822f3625b37",
+    "caption": "aravind safety nets company logo sign"
+  },
+  "gallery/duct-area-net-1": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-duct-area-net-1-e922d80b.jpg",
+    "searchQuery": "person rappelling down apartment building",
+    "alternatives": [
+      "/airo-assets/uploads/gallery-duct-area-net-1-1ff33470.jpg"
+    ],
+    "userModified": true,
+    "createdAt": "2026-09-01T11:16:41.399Z",
+    "lastUpdated": "2026-09-01T12:10:01.868Z",
+    "uploadSources": {
+      "/airo-assets/uploads/gallery-duct-area-net-1-1ff33470.jpg": "xdshmdghuf_1788261201640_file_4gmBa4H-p2.jpg",
+      "/airo-assets/uploads/gallery-duct-area-net-1-e922d80b.jpg": "xdshmdghuf_1788264388695_file_JZ8KFK6_lZ.jpg"
+    },
+    "uploadContentHash": "6f840961e8fd087b2720772781b1fca7d34504cfc4384dff5ec67a986f2d3448",
+    "caption": "person rappelling down apartment building"
+  },
+  "gallery/invisible-grill-4": {
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-pigeon-net-3-41ec9245.webp",
+    "searchQuery": "pigeon landing on wire fence",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1199384599",
+      "https://img1.wsimg.com/isteam/getty/1241608509",
+      "https://img1.wsimg.com/isteam/getty/2278388052",
+      "https://img1.wsimg.com/isteam/getty/2238107840",
+      "https://img1.wsimg.com/isteam/getty/1598927511"
+    ],
+    "userModified": true,
+    "createdAt": "2026-09-01T11:31:03.015Z",
+    "lastUpdated": "2026-09-02T11:13:19.255Z",
+    "alternativeGettyIds": [
+      "1199384599",
+      "1241608509",
+      "2278388052",
+      "2238107840",
+      "1598927511"
+    ],
+    "caption": "pigeon landing on wire fence"
+  },
+  "gallery/invisible-grill-5": {
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/952075142",
+    "searchQuery": "transparent safety grill apartment window protection",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1031836976",
+      "https://img1.wsimg.com/isteam/getty/822338692",
+      "https://img1.wsimg.com/isteam/getty/1226040812",
+      "https://img1.wsimg.com/isteam/getty/2174022168"
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-01T11:31:11.696Z",
+    "lastUpdated": "2026-09-01T11:31:11.696Z",
+    "gettyId": "952075142",
+    "alternativeGettyIds": [
+      "1031836976",
+      "822338692",
+      "1226040812",
+      "2174022168"
+    ]
+  },
+  "gallery/invisible-grill-6": {
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-invisible-grill-2-1b9847c9.webp",
+    "searchQuery": "modern balcony overlooking lit sports field",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2225247078",
+      "https://img1.wsimg.com/isteam/getty/2251541387",
+      "https://img1.wsimg.com/isteam/getty/147205663",
+      "https://img1.wsimg.com/isteam/getty/2240216659",
+      "https://img1.wsimg.com/isteam/getty/2232183350"
+    ],
+    "userModified": true,
+    "createdAt": "2026-09-01T11:31:22.555Z",
+    "lastUpdated": "2026-09-01T12:14:42.893Z",
+    "alternativeGettyIds": [
+      "2225247078",
+      "2251541387",
+      "147205663",
+      "2240216659",
+      "2232183350"
+    ],
+    "caption": "modern balcony overlooking lit sports field"
+  },
+  "pages/home/terrace-safety-nets": {
+    "requestedSize": {
+      "width": 600,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1269581622",
+    "searchQuery": "terrace rooftop safety net installation apartment building",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1196013091",
+      "https://img1.wsimg.com/isteam/getty/1224537990",
+      "https://img1.wsimg.com/isteam/getty/1182458123",
+      "https://img1.wsimg.com/isteam/getty/1224802018"
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-02T11:01:48.602Z",
+    "lastUpdated": "2026-09-02T11:01:48.602Z",
+    "gettyId": "1269581622",
+    "alternativeGettyIds": [
+      "1196013091",
+      "1224537990",
+      "1182458123",
+      "1224802018"
+    ]
+  },
+  "pages/home/bird-spikes": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-home-bird-spikes-558433d8.jpg",
+    "searchQuery": "pigeon taking flight from bridge railing",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-02T11:32:15.459Z",
+    "lastUpdated": "2026-09-02T13:19:41.315Z",
+    "uploadSources": {
+      "/airo-assets/uploads/pages-home-bird-spikes-558433d8.jpg": "xdshmdghuf_1788348642193_file_9VU3K2Bbqh.jpg"
+    },
+    "uploadContentHash": "1a871f37b8503a9980dbbe0f115652a8a771dd2d5ba90c4307c45a490220349a",
+    "caption": "pigeon taking flight from bridge railing"
+  },
+  "gallery/bird-spikes-1": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/gallery-bird-spikes-1-558433d8.jpg",
+    "searchQuery": "pigeon taking flight from bridge railing",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-02T11:32:18.392Z",
+    "lastUpdated": "2026-09-02T13:19:39.943Z",
+    "uploadSources": {
+      "/airo-assets/uploads/gallery-bird-spikes-1-558433d8.jpg": "xdshmdghuf_1788348642193_file_9VU3K2Bbqh.jpg"
+    },
+    "uploadContentHash": "1a871f37b8503a9980dbbe0f115652a8a771dd2d5ba90c4307c45a490220349a",
+    "caption": "pigeon taking flight from bridge railing"
+  },
+  "pages/about/hero": {
+    "requestedSize": {
+      "width": 1400,
+      "height": 600,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1153170010",
+    "searchQuery": "safety net installation workers apartment building India",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2227969242",
+      "https://img1.wsimg.com/isteam/getty/2248837976",
+      "https://img1.wsimg.com/isteam/getty/2173013427"
+    ],
+    "userModified": false,
+    "createdAt": "2026-10-03T04:56:11.279Z",
+    "lastUpdated": "2026-10-03T04:56:11.279Z",
+    "gettyId": "1153170010",
+    "alternativeGettyIds": [
+      "2227969242",
+      "2248837976",
+      "2173013427"
+    ]
+  },
+  "pages/about/founder": {
+    "requestedSize": {
+      "width": 500,
+      "height": 600,
+      "fit": "cover"
+    },
+    "orientations": "vertical",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2211175052",
+    "searchQuery": "Indian male business owner professional portrait confident",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/1470808177",
+      "https://img1.wsimg.com/isteam/getty/2152815016",
+      "https://img1.wsimg.com/isteam/getty/1299516379"
+    ],
+    "userModified": false,
+    "createdAt": "2026-10-03T04:56:21.052Z",
+    "lastUpdated": "2026-10-03T04:56:21.052Z",
+    "gettyId": "2211175052",
+    "alternativeGettyIds": [
+      "1470808177",
+      "2152815016",
+      "1299516379"
+    ]
+  },
+  "logo/primary": {
+    "surfaceMode": "dark",
+    "currentUrl": "/airo-assets/uploads/logo-primary-42149195.png",
+    "userModified": true,
+    "mediaType": "logo",
+    "searchQuery": "",
+    "alternatives": [
+      "/airo-assets/uploads/logo-primary-08332bf3.png"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/logo-primary-08332bf3.png": "xdshmdghuf_1791003164006_file_c0cd_jXBL2.jpg",
+      "/airo-assets/uploads/logo-primary-42149195.png": "xdshmdghuf_1791004050407_file_ITt1hrpiwK.png"
+    },
+    "uploadContentHash": "1d7ba1241a3ec8f37ace1b5ea476f9aafedf4e76993aa5154d6ceef4e68fb120",
+    "createdAt": "2026-10-03T05:04:06.400Z",
+    "lastUpdated": "2026-10-03T05:08:00.273Z",
+    "naturalOrientation": "square",
+    "darkSurfaceUrl": "/airo-assets/uploads/logo-primary-42149195.png"
+  },
+  "logo/vertical": {
+    "surfaceMode": "dark",
+    "currentUrl": "/airo-assets/uploads/logo-vertical-735b5188.png",
+    "userModified": true,
+    "mediaType": "logo",
+    "searchQuery": "",
+    "alternatives": [
+      "/airo-assets/uploads/logo-vertical-48c6c0f2.png"
+    ],
+    "uploadSources": {
+      "/airo-assets/uploads/logo-vertical-48c6c0f2.png": "xdshmdghuf_1791003164006_file_c0cd_jXBL2.jpg",
+      "/airo-assets/uploads/logo-vertical-735b5188.png": "xdshmdghuf_1791004050407_file_ITt1hrpiwK.png"
+    },
+    "uploadContentHash": "1d7ba1241a3ec8f37ace1b5ea476f9aafedf4e76993aa5154d6ceef4e68fb120",
+    "createdAt": "2026-10-03T05:04:06.400Z",
+    "lastUpdated": "2026-10-03T05:08:00.273Z",
+    "naturalOrientation": "vertical",
+    "darkSurfaceUrl": "/airo-assets/uploads/logo-vertical-735b5188.png"
+  }
+}
